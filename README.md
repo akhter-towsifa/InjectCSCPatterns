@@ -18,7 +18,8 @@ git cms-addpkg L1Trigger/CSCTriggerPrimitives
   ```
 git clone https://github.com/tahuang1991/InjectCSCPatterns.git
 cp InjectCSCPatterns/CSCTriggerPrimitives/src/* L1Trigger/CSCTriggerPrimitives/src/
-cp InjectCSCPatterns/CSCTriggerPrimitives/interface/*  L1Trigger/CSCTriggerPrimitives/interface
+cp InjectCSCPatterns/CSCTriggerPrimitives/interface/*  L1Trigger/CSCTriggerPrimitives/interface/
+cp InjectCSCPatterns/CSCTriggerPrimitives/plugins/* L1Trigger/CSCTriggerPrimitives/plugins/
 scram b -j 9
   ```
   One thing worth attention is that the above commands are to over-write the old files in L1Trigger/CSCTriggerPrimitives.  If L1Trigger/CSCTriggerPrimitives package is updated with some changes that InjectCSCPatterns/CSCTriggerPrimitives does not include, then over-write the old files may not work.  
@@ -46,17 +47,28 @@ Everytime you run above program,  it would append the new printouts to the exist
 The printout code changes is summarized in the following commits:
   -  [a881941d8b459926564a0873621c55aae9090ca0](https://github.com/tahuang1991/InjectCSCPatterns/commit/a881941d8b459926564a0873621c55aae9090ca0)
   -  [c3fd3ace655739a7d86e099e63b35dc412310338](https://github.com/tahuang1991/InjectCSCPatterns/commit/c3fd3ace655739a7d86e099e63b35dc412310338)
+  -  [e72bbca7013ad13fc0eec6d379f82c43af95df51](https://github.com/tahuang1991/InjectCSCPatterns/commit/e72bbca7013ad13fc0eec6d379f82c43af95df51)
  
 The safe way to include printout code is applying the printout code changes to L1Trigger/CSCTriggerPrimitives by hand.The reason is because with newer CMSSW version, the CSC trigger emulator code might be modified for other reasons and you do not want to overwrite these changes.
 
-What you need to do is apply the changes in CSCTriggerPrimitives/interface/CSCCathodeLCTProcessor.h, CSCTriggerPrimitives/src/CSCCathodeLCTProcessor.cc, CSCTriggerPrimitives/src/CSCMotherboard.cc, CSCTriggerPrimitives/src/CSCGEMMotherboard.cc to the corresponding files under L1Trigger/CSCTriggerPrimitives/
+What you need to do is apply the changes in 
+  - CSCTriggerPrimitives/interface/CSCCathodeLCTProcessor.h, 
+  - CSCTriggerPrimitives/interface/CSCBaseboard.h,
+  - CSCTriggerPrimitives/interface/CSCTriggerPrimitivesBuilder.h, 
+  - CSCTriggerPrimitives/src/CSCCathodeLCTProcessor.cc, 
+  - CSCTriggerPrimitives/src/CSCMotherboard.cc, 
+  - CSCTriggerPrimitives/src/CSCGEMMotherboard.cc, 
+  - CSCTriggerPrimitives/src/CSCTriggerPrimitivesBuilder.cc, 
+  - CSCTriggerPrimitives/plugins/CSCTriggerPrimitivesProducer.cc 
+  
+to the corresponding files under L1Trigger/CSCTriggerPrimitives/
 
-## Txt file from CSC L1 trigger emulator conventions
+## Conventions of txt file generated from CSC L1 trigger emulator
 The typical printout for one chamber with comparator digi from one event is showed in the following:
 
-Start with "CSCChamber with Comparatordigi:" + detector information (endcap=1 means postive endcap and =2 means negative endcap)
+Start with "Run number + Event number + CSCChamber with Comparatordigi:" + detector information (endcap=1 means postive endcap and =2 means negative endcap)
 >```
->CSCChamber with Comparatordigi: (end,station,ring,chamber) = 1, 2, 1, 7  
+>Run 1 Event 2006 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 2, 1, 1, 7 
 >```
 
 Comparator digi part: ranked by BX and layer
@@ -98,15 +110,17 @@ The full chain of MC sample production in CMSSW includes severl steps like GEN-S
 need to focus on GEN-SIM-DIGI-L1 and we use cmsDriver to generate the configuration for MC production. More detail about MC production and 
 cmsDriver is in this twiki: https://twiki.cern.ch/twiki/bin/view/CMSPublic/SWGuideCmsDriver
 
+The example scripts are under python/ directory.
+
 ### step1: GEN-SIM
-First step is to generate muon particles from physics process or muon gun and then do Geant4 detector simuation. The following cmsDriver command is used to generate the cmsRun configuration to generate muon partilces from muon gun with fixed pt 10GeV and abosulate eta less than 2.8 plus detector simulation step:
+First step is to generate muon particles from physics process or muon gun and then do Geant4 detector simuation. The following cmsDriver command is used to generate the cmsRun configuration to produce muon particles from muon gun with fixed pt 10GeV and absolute eta less than 2.8  and detector simulation step:
 ```
 cmsDriver.py SingleMuPt10_Eta2p85_cfi --beamspot Run3RoundOptics25ns13TeVLowSigmaZ \
 --conditions auto:phase1_2022_realistic --datatier GEN-SIM --era Run3 \
 --eventcontent FEVTDEBUG --fileout file:step1.root --geometry DB:Extended \
 --nStreams 2 --nThreads 8 --no_exec --number 10 --python_filename step_1_cfg.py --step GEN,SIM
 ```
-   - SingleMuPt10_Eta2p85_cfi is taken from standard cmssw gerenerator fragment under Configuration/Generator/python
+   - SingleMuPt10_Eta2p85_cfi is taken from standard cmssw gerenerator fragment under Configuration/Generator/python. https://github.com/cms-sw/cmssw/tree/master/Configuration/Generator/python
    - the steps included GEN and SIM
    - datatier is GEN-SIM, which would collections related to GEN-SIM by default
    - beamspot is current default Run3 beam spot condition
@@ -131,7 +145,7 @@ process = randomizeMuonGunEndcap(process)
  
  ### step2: DIGI-L1
  
- The second step is to do digitiztion and L1 trigger emulation and the following is the cmsDriver command to generate cmsRun configuration
+ The second step is to do digitiztion and L1 trigger emulation and the following is the cmsDriver command to generate the cmsRun configuration
  ```
 cmsDriver.py step2 --conditions auto:phase1_2022_realistic --datatier GEN-SIM-DIGI --era Run3 \
 --eventcontent FEVTDEBUGHLT --filein file:step1.root --fileout file:step2.root \
@@ -155,7 +169,7 @@ cmsDriver.py step2 --conditions auto:phase1_2022_realistic --datatier GEN-SIM-DI
  cmsRun runCSCTriggerPrimitiveProducer_cfg.py mc=True run3=True inputFiles="file:step2.root"
  ```
   
- ### pileup mixing 
+ ### Pileup mixing 
  Here is the twiki to explain the pileup and how to mix pileups with events: https://twiki.cern.ch/twiki/bin/view/CMSPublic/SWGuideFastSimPileUp
  
  The cmsDriver command to generate sample with Run3 PU settings in the DIGI step:
@@ -176,7 +190,7 @@ cmsDriver.py step2 --conditions auto:phase1_2022_realistic --datatier GEN-SIM-DI
  Also keep in mind that running the step2 configuration with PU would take much longer time than with the one without PU as mixing PU events requires much more memory and CPU time. 
  
  
- ### crab
+ ### Batch job submission with Crab
  Crab is the system to submit jobs to remote sites to produce the huge amount samples.  The twikis for crab are https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3ConfigurationFile and https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookCRAB3Tutorial.
  
  We had two example crab configuraitons, one for step1 and one for step2, under python/ directory.  crab_step1_GENSIM_cfg.py is used to generate GEN-SIM samples using step1 cmsRun configuration and 'PrivateMC' is used for jobtype. No input data path for step1 as it is genarating particles from genearator. crab_step2_DIGI_L1.py is used to generate digi+L1 samples using step2 cmsRun configuration. The step2 crab configuration need to take the published data path from step1 crab job. 
@@ -187,6 +201,22 @@ Edm command is used to check what is inside sample root file:
 ```
 edmEventSize -a -v step2.root
 ```
+
+
+## CSC event display
+The package used for CSC event display is here: https://github.com/tahuang1991/gifDisplay
+
+CSC event display requires the run number (which is always 1 for MC sample), event number and chamber number as inputs
+and then produces display plots. 
+
+example to display CSC chamber ME+1/1/34 for run1 and event 2002 is to add 
+>```
+> 1 2002 1 1 1 34
+>```
+to the eventList.txt file and then run script
+>```
+> ./runDisplay.sh
+>```
 
 ## Twiki for documenting the samples
 
