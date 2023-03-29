@@ -56,7 +56,7 @@ CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 6 Co
  Slope = 6 CFEB = 0 Strip = 31 KeyHalfStrip = 31 KeyQuartStrip = 63 KeyEighthStrip = 127
 CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 6 Comp Code 3802 Bend = 1
  Slope = 14 CFEB = 0 Strip = 20 KeyHalfStrip = 20 KeyQuartStrip = 41 KeyEighthStrip = 82
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 4 Comp Code 508 Bend = 0
+CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 4 Comp Code 420 Bend = 0
  Slope = 4 CFEB = 0 Strip = 10 KeyHalfStrip = 10 KeyQuartStrip = 20 KeyEighthStrip = 40
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 4 Comp Code 508 Bend = 0
  Slope = 4 CFEB = 0 Strip = 10 KeyHalfStrip = 10 KeyQuartStrip = 20 KeyEighthStrip = 40
@@ -306,14 +306,14 @@ Comparatordigi BX 7 Layer 5 halfstrip 52
 Comparatordigi BX 7 Layer 5 halfstrip 56
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 5 Run-3 Pattern = 3 Quality = 5 Comp Code 3221 Bend = 1
  Slope = 9 CFEB = 1 Strip = 15 KeyHalfStrip = 47 KeyQuartStrip = 94 KeyEighthStrip = 189
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 5 Comp Code 1720 Bend = 0
- Slope = 15 CFEB = 1 Strip = 29 KeyHalfStrip = 61 KeyQuartStrip = 123 KeyEighthStrip = 247
+CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3118 Bend = 1
+ Slope = 1 CFEB = 1 Strip = 22 KeyHalfStrip = 54 KeyQuartStrip = 109 KeyEighthStrip = 219
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 5 Comp Code 1720 Bend = 0
  Slope = 15 CFEB = 1 Strip = 29 KeyHalfStrip = 61 KeyQuartStrip = 123 KeyEighthStrip = 247
 CSC LCT #1: Valid = 1 BX = 7 Run-2 Pattern = 5 Run-3 Pattern = 3 Quality = 3 Bend = 1 Slope = 9
  KeyHalfStrip = 47 KeyQuartStrip = 94 KeyEighthStrip = 189 KeyWireGroup = 75 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 7 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 3 Bend = 0 Slope = 15
- KeyHalfStrip = 61 KeyQuartStrip = 123 KeyEighthStrip = 247 KeyWireGroup = 75 Type (SIM) = 1 MPC Link = 0
+CSC LCT #2: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 1
+ KeyHalfStrip = 54 KeyQuartStrip = 109 KeyEighthStrip = 219 KeyWireGroup = 75 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 1, 4, 1, 17
 Comparatordigi BX 6 Layer 0 halfstrip 50
 Comparatordigi BX 6 Layer 2 halfstrip 50
@@ -399,8 +399,6 @@ Comparatordigi BX 9 Layer 1 halfstrip 113
 Comparatordigi BX 9 Layer 5 halfstrip 104
 CSC CLCT #1: Valid = 1 BX = 4 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4027 Bend = 1
  Slope = 0 CFEB = 4 Strip = 19 KeyHalfStrip = 147 KeyQuartStrip = 294 KeyEighthStrip = 588
-CSC CLCT #2: Valid = 1 BX = 4 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 4 Comp Code 2259 Bend = 1
- Slope = 5 CFEB = 3 Strip = 30 KeyHalfStrip = 126 KeyQuartStrip = 252 KeyEighthStrip = 505
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 4 Comp Code 2259 Bend = 1
  Slope = 5 CFEB = 3 Strip = 30 KeyHalfStrip = 126 KeyQuartStrip = 252 KeyEighthStrip = 505
 CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 5 Run-3 Pattern = 3 Quality = 4 Comp Code 229 Bend = 1
@@ -433,16 +431,12 @@ Comparatordigi BX 7 Layer 4 halfstrip 31
 Comparatordigi BX 8 Layer 3 halfstrip 32
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2735 Bend = 0
  Slope = 1 CFEB = 0 Strip = 2 KeyHalfStrip = 2 KeyQuartStrip = 5 KeyEighthStrip = 11
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3214 Bend = 1
- Slope = 0 CFEB = 0 Strip = 16 KeyHalfStrip = 16 KeyQuartStrip = 33 KeyEighthStrip = 67
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3214 Bend = 1
  Slope = 0 CFEB = 0 Strip = 16 KeyHalfStrip = 16 KeyQuartStrip = 33 KeyEighthStrip = 67
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 969 Bend = 1
- Slope = 15 CFEB = 0 Strip = 25 KeyHalfStrip = 25 KeyQuartStrip = 51 KeyEighthStrip = 103
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 0
  KeyHalfStrip = 16 KeyQuartStrip = 33 KeyEighthStrip = 67 KeyWireGroup = 16 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 3 Bend = 1 Slope = 15
- KeyHalfStrip = 25 KeyQuartStrip = 51 KeyEighthStrip = 103 KeyWireGroup = 6 Type (SIM) = 1 MPC Link = 0
+CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 0
+ KeyHalfStrip = 16 KeyQuartStrip = 33 KeyEighthStrip = 67 KeyWireGroup = 6 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 2, 4, 1, 6
 Comparatordigi BX 5 Layer 0 halfstrip 148
 Comparatordigi BX 5 Layer 1 halfstrip 148
@@ -464,8 +458,6 @@ Comparatordigi BX 8 Layer 4 halfstrip 140
 Comparatordigi BX 9 Layer 4 halfstrip 158
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2746 Bend = 0
  Slope = 0 CFEB = 4 Strip = 19 KeyHalfStrip = 147 KeyQuartStrip = 295 KeyEighthStrip = 590
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 5 Comp Code 3302 Bend = 1
- Slope = 8 CFEB = 4 Strip = 9 KeyHalfStrip = 137 KeyQuartStrip = 274 KeyEighthStrip = 548
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 6 Comp Code 4070 Bend = 1
  Slope = 8 CFEB = 4 Strip = 9 KeyHalfStrip = 137 KeyQuartStrip = 274 KeyEighthStrip = 548
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 3 Bend = 1 Slope = 8
@@ -545,12 +537,10 @@ Comparatordigi BX 8 Layer 5 halfstrip 154
 Comparatordigi BX 10 Layer 5 halfstrip 147
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 1023 Bend = 1
  Slope = 0 CFEB = 4 Strip = 18 KeyHalfStrip = 146 KeyQuartStrip = 292 KeyEighthStrip = 585
-CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 4 Comp Code 1732 Bend = 0
- Slope = 5 CFEB = 4 Strip = 28 KeyHalfStrip = 156 KeyQuartStrip = 313 KeyEighthStrip = 626
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 0
  KeyHalfStrip = 146 KeyQuartStrip = 292 KeyEighthStrip = 585 KeyWireGroup = 23 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 1 Bend = 0 Slope = 5
- KeyHalfStrip = 156 KeyQuartStrip = 313 KeyEighthStrip = 626 KeyWireGroup = 26 Type (SIM) = 1 MPC Link = 0
+CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 2 Bend = 1 Slope = 0
+ KeyHalfStrip = 146 KeyQuartStrip = 292 KeyEighthStrip = 585 KeyWireGroup = 26 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 1, 4, 1, 15
 Comparatordigi BX 7 Layer 0 halfstrip 147
 Comparatordigi BX 7 Layer 4 halfstrip 147
@@ -711,8 +701,6 @@ Comparatordigi BX 8 Layer 1 halfstrip 5
 Comparatordigi BX 8 Layer 1 halfstrip 37
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3771 Bend = 0
  Slope = 0 CFEB = 1 Strip = 8 KeyHalfStrip = 40 KeyQuartStrip = 81 KeyEighthStrip = 163
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 4 Comp Code 2290 Bend = 1
- Slope = 6 CFEB = 0 Strip = 25 KeyHalfStrip = 25 KeyQuartStrip = 50 KeyEighthStrip = 101
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 4 Comp Code 2290 Bend = 1
  Slope = 6 CFEB = 0 Strip = 25 KeyHalfStrip = 25 KeyQuartStrip = 50 KeyEighthStrip = 101
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 3 Bend = 1 Slope = 6
@@ -739,8 +727,6 @@ Comparatordigi BX 8 Layer 0 halfstrip 40
 Comparatordigi BX 8 Layer 2 halfstrip 63
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3067 Bend = 0
  Slope = 0 CFEB = 1 Strip = 14 KeyHalfStrip = 46 KeyQuartStrip = 92 KeyEighthStrip = 184
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 5 Comp Code 2017 Bend = 0
- Slope = 4 CFEB = 1 Strip = 26 KeyHalfStrip = 58 KeyQuartStrip = 117 KeyEighthStrip = 234
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 5 Comp Code 2017 Bend = 0
  Slope = 4 CFEB = 1 Strip = 26 KeyHalfStrip = 58 KeyQuartStrip = 117 KeyEighthStrip = 234
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 3 Bend = 0 Slope = 4
@@ -852,8 +838,6 @@ Comparatordigi BX 8 Layer 5 halfstrip 140
 Comparatordigi BX 8 Layer 5 halfstrip 152
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2814 Bend = 0
  Slope = 0 CFEB = 4 Strip = 11 KeyHalfStrip = 139 KeyQuartStrip = 279 KeyEighthStrip = 559
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 6 Comp Code 1726 Bend = 0
- Slope = 7 CFEB = 4 Strip = 27 KeyHalfStrip = 155 KeyQuartStrip = 310 KeyEighthStrip = 620
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 6 Comp Code 1726 Bend = 0
  Slope = 7 CFEB = 4 Strip = 27 KeyHalfStrip = 155 KeyQuartStrip = 310 KeyEighthStrip = 620
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 3 Bend = 0 Slope = 7
@@ -987,14 +971,12 @@ Comparatordigi BX 9 Layer 0 halfstrip 19
 Comparatordigi BX 9 Layer 2 halfstrip 27
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4095 Bend = 1
  Slope = 0 CFEB = 0 Strip = 18 KeyHalfStrip = 18 KeyQuartStrip = 36 KeyEighthStrip = 73
-CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 4 Comp Code 2800 Bend = 0
- Slope = 3 CFEB = 0 Strip = 26 KeyHalfStrip = 26 KeyQuartStrip = 53 KeyEighthStrip = 106
 CSC CLCT #1: Valid = 1 BX = 8 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 4 Comp Code 2800 Bend = 0
  Slope = 3 CFEB = 0 Strip = 26 KeyHalfStrip = 26 KeyQuartStrip = 53 KeyEighthStrip = 106
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 0
  KeyHalfStrip = 18 KeyQuartStrip = 36 KeyEighthStrip = 73 KeyWireGroup = 25 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 3 Bend = 0 Slope = 3
- KeyHalfStrip = 26 KeyQuartStrip = 53 KeyEighthStrip = 106 KeyWireGroup = 23 Type (SIM) = 1 MPC Link = 0
+CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 0
+ KeyHalfStrip = 18 KeyQuartStrip = 36 KeyEighthStrip = 73 KeyWireGroup = 23 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 1, 4, 1, 10
 Comparatordigi BX 5 Layer 3 halfstrip 19
 Comparatordigi BX 6 Layer 2 halfstrip 19
@@ -1053,8 +1035,6 @@ Comparatordigi BX 7 Layer 3 halfstrip 150
 Comparatordigi BX 8 Layer 2 halfstrip 154
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2490 Bend = 0
  Slope = 0 CFEB = 4 Strip = 11 KeyHalfStrip = 139 KeyQuartStrip = 278 KeyEighthStrip = 557
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3552 Bend = 1
- Slope = 0 CFEB = 3 Strip = 29 KeyHalfStrip = 125 KeyQuartStrip = 250 KeyEighthStrip = 501
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3552 Bend = 1
  Slope = 0 CFEB = 3 Strip = 29 KeyHalfStrip = 125 KeyQuartStrip = 250 KeyEighthStrip = 501
 CSC LCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 0
@@ -1134,12 +1114,8 @@ Comparatordigi BX 9 Layer 2 halfstrip 151
 Comparatordigi BX 9 Layer 3 halfstrip 83
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2558 Bend = 0
  Slope = 1 CFEB = 3 Strip = 11 KeyHalfStrip = 107 KeyQuartStrip = 215 KeyEighthStrip = 431
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 5 Run-3 Pattern = 1 Quality = 6 Comp Code 1367 Bend = 1
- Slope = 11 CFEB = 3 Strip = 3 KeyHalfStrip = 99 KeyQuartStrip = 199 KeyEighthStrip = 399
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 5 Run-3 Pattern = 1 Quality = 6 Comp Code 1367 Bend = 1
  Slope = 11 CFEB = 3 Strip = 3 KeyHalfStrip = 99 KeyQuartStrip = 199 KeyEighthStrip = 399
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 2296 Bend = 0
- Slope = 0 CFEB = 2 Strip = 28 KeyHalfStrip = 92 KeyQuartStrip = 185 KeyEighthStrip = 371
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 2296 Bend = 0
  Slope = 0 CFEB = 2 Strip = 28 KeyHalfStrip = 92 KeyQuartStrip = 185 KeyEighthStrip = 371
 CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 4 Comp Code 830 Bend = 1
@@ -1373,16 +1349,16 @@ Comparatordigi BX 9 Layer 0 halfstrip 68
 Comparatordigi BX 9 Layer 4 halfstrip 91
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 4060 Bend = 1
  Slope = 1 CFEB = 2 Strip = 4 KeyHalfStrip = 68 KeyQuartStrip = 137 KeyEighthStrip = 275
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 5 Comp Code 4047 Bend = 1
- Slope = 6 CFEB = 1 Strip = 29 KeyHalfStrip = 61 KeyQuartStrip = 123 KeyEighthStrip = 247
+CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 4 Comp Code 107 Bend = 0
+ Slope = 15 CFEB = 3 Strip = 0 KeyHalfStrip = 96 KeyQuartStrip = 192 KeyEighthStrip = 384
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 5 Comp Code 4047 Bend = 1
  Slope = 6 CFEB = 1 Strip = 29 KeyHalfStrip = 61 KeyQuartStrip = 123 KeyEighthStrip = 247
 CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 4 Comp Code 2499 Bend = 1
  Slope = 4 CFEB = 1 Strip = 22 KeyHalfStrip = 54 KeyQuartStrip = 108 KeyEighthStrip = 217
 CSC LCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 1
  KeyHalfStrip = 68 KeyQuartStrip = 137 KeyEighthStrip = 275 KeyWireGroup = 16 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 7 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 3 Bend = 1 Slope = 6
- KeyHalfStrip = 61 KeyQuartStrip = 123 KeyEighthStrip = 247 KeyWireGroup = 16 Type (SIM) = 1 MPC Link = 0
+CSC LCT #2: Valid = 1 BX = 7 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 3 Bend = 0 Slope = 15
+ KeyHalfStrip = 96 KeyQuartStrip = 192 KeyEighthStrip = 384 KeyWireGroup = 16 Type (SIM) = 1 MPC Link = 0
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 3 Bend = 1 Slope = 6
  KeyHalfStrip = 61 KeyQuartStrip = 123 KeyEighthStrip = 247 KeyWireGroup = 18 Type (SIM) = 1 MPC Link = 0
 CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 3 Bend = 1 Slope = 4
@@ -1475,14 +1451,12 @@ CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 C
  Slope = 0 CFEB = 1 Strip = 4 KeyHalfStrip = 36 KeyQuartStrip = 72 KeyEighthStrip = 144
 CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 1807 Bend = 0
  Slope = 2 CFEB = 1 Strip = 11 KeyHalfStrip = 43 KeyQuartStrip = 86 KeyEighthStrip = 172
-CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 246 Bend = 1
- Slope = 15 CFEB = 0 Strip = 11 KeyHalfStrip = 11 KeyQuartStrip = 23 KeyEighthStrip = 47
-CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 4 Comp Code 465 Bend = 0
+CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 4 Comp Code 465 Bend = 0
  Slope = 12 CFEB = 2 Strip = 2 KeyHalfStrip = 66 KeyQuartStrip = 133 KeyEighthStrip = 266
 CSC CLCT #1: Valid = 1 BX = 8 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 246 Bend = 1
  Slope = 15 CFEB = 0 Strip = 11 KeyHalfStrip = 11 KeyQuartStrip = 23 KeyEighthStrip = 47
-CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 3 Bend = 1 Slope = 15
- KeyHalfStrip = 11 KeyQuartStrip = 23 KeyEighthStrip = 47 KeyWireGroup = 24 Type (SIM) = 1 MPC Link = 0
+CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 3 Bend = 0 Slope = 12
+ KeyHalfStrip = 66 KeyQuartStrip = 133 KeyEighthStrip = 266 KeyWireGroup = 24 Type (SIM) = 1 MPC Link = 0
 CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 2 Bend = 0 Slope = 12
  KeyHalfStrip = 66 KeyQuartStrip = 133 KeyEighthStrip = 266 KeyWireGroup = 20 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 1, 4, 1, 4
@@ -1570,8 +1544,8 @@ Comparatordigi BX 7 Layer 2 halfstrip 156
 Comparatordigi BX 7 Layer 3 halfstrip 121
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 1643 Bend = 0
  Slope = 2 CFEB = 4 Strip = 16 KeyHalfStrip = 144 KeyQuartStrip = 288 KeyEighthStrip = 577
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 565 Bend = 1
- Slope = 2 CFEB = 3 Strip = 21 KeyHalfStrip = 117 KeyQuartStrip = 234 KeyEighthStrip = 468
+CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 4 Comp Code 3342 Bend = 0
+ Slope = 13 CFEB = 4 Strip = 6 KeyHalfStrip = 134 KeyQuartStrip = 269 KeyEighthStrip = 538
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 565 Bend = 1
  Slope = 2 CFEB = 3 Strip = 21 KeyHalfStrip = 117 KeyQuartStrip = 234 KeyEighthStrip = 468
 CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3636 Bend = 1
@@ -1604,8 +1578,6 @@ Comparatordigi BX 7 Layer 5 halfstrip 14
 Comparatordigi BX 7 Layer 5 halfstrip 29
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2525 Bend = 1
  Slope = 0 CFEB = 0 Strip = 2 KeyHalfStrip = 2 KeyQuartStrip = 4 KeyEighthStrip = 8
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 4 Comp Code 497 Bend = 0
- Slope = 13 CFEB = 0 Strip = 26 KeyHalfStrip = 26 KeyQuartStrip = 52 KeyEighthStrip = 104
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 4 Comp Code 497 Bend = 0
  Slope = 13 CFEB = 0 Strip = 26 KeyHalfStrip = 26 KeyQuartStrip = 52 KeyEighthStrip = 104
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 3 Bend = 0 Slope = 13
@@ -1646,12 +1618,12 @@ Comparatordigi BX 8 Layer 4 halfstrip 87
 Comparatordigi BX 8 Layer 4 halfstrip 116
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4027 Bend = 1
  Slope = 0 CFEB = 4 Strip = 17 KeyHalfStrip = 145 KeyQuartStrip = 290 KeyEighthStrip = 580
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 857 Bend = 1
- Slope = 2 CFEB = 4 Strip = 26 KeyHalfStrip = 154 KeyQuartStrip = 309 KeyEighthStrip = 619
+CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 5 Comp Code 765 Bend = 0
+ Slope = 4 CFEB = 4 Strip = 26 KeyHalfStrip = 154 KeyQuartStrip = 308 KeyEighthStrip = 616
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 857 Bend = 1
  Slope = 2 CFEB = 4 Strip = 26 KeyHalfStrip = 154 KeyQuartStrip = 309 KeyEighthStrip = 619
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 5 Comp Code 3683 Bend = 1
- Slope = 12 CFEB = 3 Strip = 15 KeyHalfStrip = 111 KeyQuartStrip = 223 KeyEighthStrip = 447
+CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 4 Comp Code 810 Bend = 1
+ Slope = 7 CFEB = 4 Strip = 3 KeyHalfStrip = 131 KeyQuartStrip = 262 KeyEighthStrip = 525
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 5 Comp Code 3683 Bend = 1
  Slope = 12 CFEB = 3 Strip = 15 KeyHalfStrip = 111 KeyQuartStrip = 223 KeyEighthStrip = 447
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 3 Bend = 1 Slope = 12
@@ -1714,12 +1686,10 @@ Comparatordigi BX 8 Layer 4 halfstrip 126
 Comparatordigi BX 8 Layer 5 halfstrip 144
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4014 Bend = 1
  Slope = 1 CFEB = 4 Strip = 8 KeyHalfStrip = 136 KeyQuartStrip = 273 KeyEighthStrip = 547
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 699 Bend = 0
- Slope = 1 CFEB = 4 Strip = 15 KeyHalfStrip = 143 KeyQuartStrip = 287 KeyEighthStrip = 575
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2747 Bend = 0
  Slope = 1 CFEB = 4 Strip = 15 KeyHalfStrip = 143 KeyQuartStrip = 287 KeyEighthStrip = 575
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 6 Comp Code 2042 Bend = 0
- Slope = 6 CFEB = 4 Strip = 29 KeyHalfStrip = 157 KeyQuartStrip = 314 KeyEighthStrip = 628
+CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 1474 Bend = 0
+ Slope = 1 CFEB = 4 Strip = 2 KeyHalfStrip = 130 KeyQuartStrip = 260 KeyEighthStrip = 521
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 6 Comp Code 2042 Bend = 0
  Slope = 6 CFEB = 4 Strip = 29 KeyHalfStrip = 157 KeyQuartStrip = 314 KeyEighthStrip = 628
 CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 5 Comp Code 982 Bend = 1
@@ -1884,8 +1854,6 @@ Comparatordigi BX 8 Layer 3 halfstrip 21
 Comparatordigi BX 8 Layer 4 halfstrip 22
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4095 Bend = 1
  Slope = 0 CFEB = 0 Strip = 30 KeyHalfStrip = 30 KeyQuartStrip = 60 KeyEighthStrip = 121
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 6 Comp Code 3741 Bend = 1
- Slope = 7 CFEB = 0 Strip = 19 KeyHalfStrip = 19 KeyQuartStrip = 39 KeyEighthStrip = 79
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 6 Comp Code 3741 Bend = 1
  Slope = 7 CFEB = 0 Strip = 19 KeyHalfStrip = 19 KeyQuartStrip = 39 KeyEighthStrip = 79
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 3 Bend = 1 Slope = 7
@@ -1945,14 +1913,12 @@ Comparatordigi BX 8 Layer 4 halfstrip 14
 Comparatordigi BX 8 Layer 4 halfstrip 24
 Comparatordigi BX 8 Layer 5 halfstrip 47
 Comparatordigi BX 9 Layer 0 halfstrip 43
-CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2023 Bend = 0
- Slope = 0 CFEB = 0 Strip = 15 KeyHalfStrip = 15 KeyQuartStrip = 31 KeyEighthStrip = 62
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2731 Bend = 0
+CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2731 Bend = 0
  Slope = 1 CFEB = 1 Strip = 0 KeyHalfStrip = 32 KeyQuartStrip = 65 KeyEighthStrip = 130
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2023 Bend = 0
  Slope = 0 CFEB = 0 Strip = 15 KeyHalfStrip = 15 KeyQuartStrip = 31 KeyEighthStrip = 62
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 6 Comp Code 3950 Bend = 1
- Slope = 14 CFEB = 0 Strip = 8 KeyHalfStrip = 8 KeyQuartStrip = 17 KeyEighthStrip = 34
+CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 6 Comp Code 3037 Bend = 0
+ Slope = 12 CFEB = 1 Strip = 29 KeyHalfStrip = 61 KeyQuartStrip = 122 KeyEighthStrip = 245
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 6 Comp Code 3950 Bend = 1
  Slope = 14 CFEB = 0 Strip = 8 KeyHalfStrip = 8 KeyQuartStrip = 17 KeyEighthStrip = 34
 CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 2904 Bend = 1
@@ -2098,20 +2064,16 @@ Comparatordigi BX 8 Layer 0 halfstrip 53
 Comparatordigi BX 8 Layer 1 halfstrip 20
 Comparatordigi BX 8 Layer 1 halfstrip 52
 Comparatordigi BX 8 Layer 4 halfstrip 51
-CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 4 Run-3 Pattern = 2 Quality = 6 Comp Code 1727 Bend = 0
- Slope = 9 CFEB = 1 Strip = 8 KeyHalfStrip = 40 KeyQuartStrip = 80 KeyEighthStrip = 161
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 5 Comp Code 2619 Bend = 0
+CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 5 Comp Code 2619 Bend = 0
  Slope = 7 CFEB = 1 Strip = 0 KeyHalfStrip = 32 KeyQuartStrip = 64 KeyEighthStrip = 128
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 4 Run-3 Pattern = 2 Quality = 6 Comp Code 1727 Bend = 0
  Slope = 9 CFEB = 1 Strip = 8 KeyHalfStrip = 40 KeyQuartStrip = 80 KeyEighthStrip = 161
 CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 5 Comp Code 762 Bend = 1
  Slope = 6 CFEB = 0 Strip = 20 KeyHalfStrip = 20 KeyQuartStrip = 40 KeyEighthStrip = 81
-CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 5 Comp Code 4042 Bend = 0
- Slope = 4 CFEB = 1 Strip = 19 KeyHalfStrip = 51 KeyQuartStrip = 102 KeyEighthStrip = 205
-CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 3 Bend = 0 Slope = 4
- KeyHalfStrip = 51 KeyQuartStrip = 102 KeyEighthStrip = 205 KeyWireGroup = 64 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 3 Bend = 0 Slope = 4
- KeyHalfStrip = 51 KeyQuartStrip = 102 KeyEighthStrip = 205 KeyWireGroup = 59 Type (SIM) = 1 MPC Link = 0
+CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 4 Run-3 Pattern = 2 Quality = 3 Bend = 0 Slope = 9
+ KeyHalfStrip = 40 KeyQuartStrip = 80 KeyEighthStrip = 161 KeyWireGroup = 64 Type (SIM) = 1 MPC Link = 0
+CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 3 Bend = 1 Slope = 6
+ KeyHalfStrip = 20 KeyQuartStrip = 40 KeyEighthStrip = 81 KeyWireGroup = 59 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 1, 3, 1, 5
 Comparatordigi BX 6 Layer 1 halfstrip 130
 Comparatordigi BX 6 Layer 3 halfstrip 130
@@ -2233,8 +2195,6 @@ Comparatordigi BX 8 Layer 3 halfstrip 113
 Comparatordigi BX 9 Layer 1 halfstrip 127
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 1675 Bend = 0
  Slope = 2 CFEB = 3 Strip = 24 KeyHalfStrip = 120 KeyQuartStrip = 241 KeyEighthStrip = 482
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 5 Run-3 Pattern = 3 Quality = 5 Comp Code 997 Bend = 1
- Slope = 10 CFEB = 3 Strip = 14 KeyHalfStrip = 110 KeyQuartStrip = 221 KeyEighthStrip = 443
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 5 Run-3 Pattern = 3 Quality = 5 Comp Code 997 Bend = 1
  Slope = 10 CFEB = 3 Strip = 14 KeyHalfStrip = 110 KeyQuartStrip = 221 KeyEighthStrip = 443
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 5 Run-3 Pattern = 3 Quality = 3 Bend = 1 Slope = 10
@@ -2288,8 +2248,6 @@ Comparatordigi BX 7 Layer 5 halfstrip 126
 Comparatordigi BX 8 Layer 1 halfstrip 138
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4087 Bend = 1
  Slope = 1 CFEB = 3 Strip = 28 KeyHalfStrip = 124 KeyQuartStrip = 249 KeyEighthStrip = 499
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 4 Comp Code 936 Bend = 1
- Slope = 7 CFEB = 3 Strip = 1 KeyHalfStrip = 97 KeyQuartStrip = 194 KeyEighthStrip = 388
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 4 Comp Code 936 Bend = 1
  Slope = 7 CFEB = 3 Strip = 1 KeyHalfStrip = 97 KeyQuartStrip = 194 KeyEighthStrip = 388
 CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 916 Bend = 1
@@ -2550,12 +2508,8 @@ Comparatordigi BX 7 Layer 4 halfstrip 26
 Comparatordigi BX 7 Layer 4 halfstrip 36
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4014 Bend = 1
  Slope = 1 CFEB = 0 Strip = 4 KeyHalfStrip = 4 KeyQuartStrip = 9 KeyEighthStrip = 19
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 5 Comp Code 2219 Bend = 0
- Slope = 7 CFEB = 0 Strip = 17 KeyHalfStrip = 17 KeyQuartStrip = 35 KeyEighthStrip = 71
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 5 Comp Code 2219 Bend = 0
  Slope = 7 CFEB = 0 Strip = 17 KeyHalfStrip = 17 KeyQuartStrip = 35 KeyEighthStrip = 71
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 4 Comp Code 557 Bend = 0
- Slope = 5 CFEB = 0 Strip = 26 KeyHalfStrip = 26 KeyQuartStrip = 53 KeyEighthStrip = 106
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 4 Comp Code 557 Bend = 0
  Slope = 5 CFEB = 0 Strip = 26 KeyHalfStrip = 26 KeyQuartStrip = 53 KeyEighthStrip = 106
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 3 Bend = 0 Slope = 5
@@ -2596,8 +2550,6 @@ Comparatordigi BX 8 Layer 0 halfstrip 119
 Comparatordigi BX 8 Layer 2 halfstrip 121
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 1526 Bend = 0
  Slope = 1 CFEB = 4 Strip = 23 KeyHalfStrip = 151 KeyQuartStrip = 302 KeyEighthStrip = 605
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 6 Comp Code 2922 Bend = 1
- Slope = 6 CFEB = 4 Strip = 10 KeyHalfStrip = 138 KeyQuartStrip = 277 KeyEighthStrip = 555
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 6 Comp Code 2922 Bend = 1
  Slope = 6 CFEB = 4 Strip = 10 KeyHalfStrip = 138 KeyQuartStrip = 277 KeyEighthStrip = 555
 CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 5 Comp Code 1853 Bend = 1
@@ -2653,18 +2605,14 @@ Comparatordigi BX 8 Layer 2 halfstrip 132
 Comparatordigi BX 8 Layer 3 halfstrip 133
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4030 Bend = 1
  Slope = 0 CFEB = 4 Strip = 27 KeyHalfStrip = 155 KeyQuartStrip = 310 KeyEighthStrip = 620
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 6 Comp Code 2810 Bend = 1
- Slope = 5 CFEB = 4 Strip = 15 KeyHalfStrip = 143 KeyQuartStrip = 286 KeyEighthStrip = 573
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 6 Comp Code 2810 Bend = 1
  Slope = 5 CFEB = 4 Strip = 15 KeyHalfStrip = 143 KeyQuartStrip = 286 KeyEighthStrip = 573
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 4 Comp Code 915 Bend = 1
- Slope = 5 CFEB = 4 Strip = 4 KeyHalfStrip = 132 KeyQuartStrip = 264 KeyEighthStrip = 528
 CSC CLCT #1: Valid = 1 BX = 8 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 4 Comp Code 915 Bend = 1
  Slope = 5 CFEB = 4 Strip = 4 KeyHalfStrip = 132 KeyQuartStrip = 264 KeyEighthStrip = 528
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 3 Bend = 1 Slope = 5
  KeyHalfStrip = 143 KeyQuartStrip = 286 KeyEighthStrip = 573 KeyWireGroup = 18 Type (SIM) = 1 MPC Link = 0
 CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 3 Bend = 1 Slope = 5
- KeyHalfStrip = 132 KeyQuartStrip = 264 KeyEighthStrip = 528 KeyWireGroup = 16 Type (SIM) = 1 MPC Link = 0
+ KeyHalfStrip = 143 KeyQuartStrip = 286 KeyEighthStrip = 573 KeyWireGroup = 16 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 2, 3, 1, 8
 Comparatordigi BX 6 Layer 1 halfstrip 155
 Comparatordigi BX 7 Layer 0 halfstrip 155
@@ -2744,8 +2692,6 @@ Comparatordigi BX 7 Layer 2 halfstrip 22
 Comparatordigi BX 7 Layer 3 halfstrip 22
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3758 Bend = 1
  Slope = 0 CFEB = 0 Strip = 9 KeyHalfStrip = 9 KeyQuartStrip = 19 KeyEighthStrip = 38
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 2036 Bend = 1
- Slope = 0 CFEB = 0 Strip = 20 KeyHalfStrip = 20 KeyQuartStrip = 41 KeyEighthStrip = 82
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 2036 Bend = 1
  Slope = 0 CFEB = 0 Strip = 20 KeyHalfStrip = 20 KeyQuartStrip = 41 KeyEighthStrip = 82
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 0
@@ -2812,8 +2758,6 @@ Comparatordigi BX 8 Layer 2 halfstrip 10
 Comparatordigi BX 8 Layer 2 halfstrip 19
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 1513 Bend = 0
  Slope = 0 CFEB = 0 Strip = 3 KeyHalfStrip = 3 KeyQuartStrip = 6 KeyEighthStrip = 12
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 6 Comp Code 1367 Bend = 0
- Slope = 8 CFEB = 0 Strip = 19 KeyHalfStrip = 19 KeyQuartStrip = 38 KeyEighthStrip = 76
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 5 Comp Code 343 Bend = 0
  Slope = 8 CFEB = 0 Strip = 19 KeyHalfStrip = 19 KeyQuartStrip = 38 KeyEighthStrip = 76
 CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 5 Comp Code 411 Bend = 0
@@ -2851,7 +2795,7 @@ Comparatordigi BX 7 Layer 3 halfstrip 57
 Comparatordigi BX 7 Layer 3 halfstrip 68
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3050 Bend = 1
  Slope = 0 CFEB = 1 Strip = 31 KeyHalfStrip = 63 KeyQuartStrip = 127 KeyEighthStrip = 254
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 5 Comp Code 750 Bend = 1
+CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 5 Comp Code 409 Bend = 1
  Slope = 14 CFEB = 1 Strip = 21 KeyHalfStrip = 53 KeyQuartStrip = 107 KeyEighthStrip = 215
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 5 Comp Code 750 Bend = 1
  Slope = 14 CFEB = 1 Strip = 21 KeyHalfStrip = 53 KeyQuartStrip = 107 KeyEighthStrip = 215
@@ -3045,8 +2989,6 @@ Comparatordigi BX 9 Layer 2 halfstrip 31
 Comparatordigi BX 9 Layer 3 halfstrip 23
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 1961 Bend = 1
  Slope = 0 CFEB = 0 Strip = 3 KeyHalfStrip = 3 KeyQuartStrip = 6 KeyEighthStrip = 12
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 6 Comp Code 3047 Bend = 0
- Slope = 13 CFEB = 0 Strip = 19 KeyHalfStrip = 19 KeyQuartStrip = 39 KeyEighthStrip = 78
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 6 Comp Code 3047 Bend = 0
  Slope = 13 CFEB = 0 Strip = 19 KeyHalfStrip = 19 KeyQuartStrip = 39 KeyEighthStrip = 78
 CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 756 Bend = 1
@@ -3134,8 +3076,6 @@ Comparatordigi BX 8 Layer 2 halfstrip 145
 Comparatordigi BX 9 Layer 3 halfstrip 147
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2789 Bend = 1
  Slope = 2 CFEB = 4 Strip = 28 KeyHalfStrip = 156 KeyQuartStrip = 312 KeyEighthStrip = 624
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3598 Bend = 1
- Slope = 0 CFEB = 4 Strip = 17 KeyHalfStrip = 145 KeyQuartStrip = 291 KeyEighthStrip = 583
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 3614 Bend = 1
  Slope = 0 CFEB = 4 Strip = 17 KeyHalfStrip = 145 KeyQuartStrip = 291 KeyEighthStrip = 582
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 0
@@ -3174,12 +3114,10 @@ Comparatordigi BX 8 Layer 1 halfstrip 24
 Comparatordigi BX 8 Layer 2 halfstrip 29
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 6 Comp Code 4094 Bend = 0
  Slope = 4 CFEB = 0 Strip = 7 KeyHalfStrip = 7 KeyQuartStrip = 15 KeyEighthStrip = 30
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 5 Comp Code 4019 Bend = 0
- Slope = 13 CFEB = 0 Strip = 23 KeyHalfStrip = 23 KeyQuartStrip = 46 KeyEighthStrip = 92
+CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 4 Comp Code 2117 Bend = 0
+ Slope = 4 CFEB = 0 Strip = 12 KeyHalfStrip = 12 KeyQuartStrip = 25 KeyEighthStrip = 51
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 6 Comp Code 4023 Bend = 0
  Slope = 12 CFEB = 0 Strip = 22 KeyHalfStrip = 22 KeyQuartStrip = 45 KeyEighthStrip = 90
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 5 Comp Code 2863 Bend = 0
- Slope = 7 CFEB = 0 Strip = 29 KeyHalfStrip = 29 KeyQuartStrip = 58 KeyEighthStrip = 117
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 5 Comp Code 2863 Bend = 0
  Slope = 7 CFEB = 0 Strip = 29 KeyHalfStrip = 29 KeyQuartStrip = 58 KeyEighthStrip = 117
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 3 Bend = 0 Slope = 7
@@ -3260,14 +3198,10 @@ Comparatordigi BX 8 Layer 3 halfstrip 41
 Comparatordigi BX 9 Layer 0 halfstrip 40
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 6 Comp Code 3067 Bend = 0
  Slope = 14 CFEB = 1 Strip = 24 KeyHalfStrip = 56 KeyQuartStrip = 112 KeyEighthStrip = 224
-CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 2282 Bend = 1
- Slope = 0 CFEB = 1 Strip = 7 KeyHalfStrip = 39 KeyQuartStrip = 79 KeyEighthStrip = 158
 CSC CLCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 2282 Bend = 1
  Slope = 0 CFEB = 1 Strip = 7 KeyHalfStrip = 39 KeyQuartStrip = 79 KeyEighthStrip = 158
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 3 Bend = 0 Slope = 14
  KeyHalfStrip = 56 KeyQuartStrip = 112 KeyEighthStrip = 224 KeyWireGroup = 66 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 0
- KeyHalfStrip = 39 KeyQuartStrip = 79 KeyEighthStrip = 158 KeyWireGroup = 66 Type (SIM) = 1 MPC Link = 0
 CSC LCT #1: Valid = 1 BX = 9 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 2 Bend = 1 Slope = 0
  KeyHalfStrip = 39 KeyQuartStrip = 79 KeyEighthStrip = 158 KeyWireGroup = 61 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 2, 3, 1, 13
@@ -3414,9 +3348,7 @@ Comparatordigi BX 7 Layer 4 halfstrip 137
 Comparatordigi BX 7 Layer 5 halfstrip 135
 Comparatordigi BX 8 Layer 0 halfstrip 129
 Comparatordigi BX 8 Layer 1 halfstrip 128
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2047 Bend = 0
- Slope = 2 CFEB = 4 Strip = 8 KeyHalfStrip = 136 KeyQuartStrip = 272 KeyEighthStrip = 544
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 5 Comp Code 3484 Bend = 1
+CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 5 Comp Code 3484 Bend = 1
  Slope = 14 CFEB = 4 Strip = 0 KeyHalfStrip = 128 KeyQuartStrip = 256 KeyEighthStrip = 513
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2047 Bend = 0
  Slope = 2 CFEB = 4 Strip = 8 KeyHalfStrip = 136 KeyQuartStrip = 272 KeyEighthStrip = 544
@@ -3610,8 +3542,6 @@ Comparatordigi BX 7 Layer 5 halfstrip 12
 Comparatordigi BX 7 Layer 5 halfstrip 31
 Comparatordigi BX 8 Layer 2 halfstrip 12
 Comparatordigi BX 8 Layer 3 halfstrip 12
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4095 Bend = 1
- Slope = 0 CFEB = 0 Strip = 11 KeyHalfStrip = 11 KeyQuartStrip = 22 KeyEighthStrip = 45
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4095 Bend = 1
  Slope = 0 CFEB = 0 Strip = 11 KeyHalfStrip = 11 KeyQuartStrip = 22 KeyEighthStrip = 45
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 0
@@ -3719,16 +3649,14 @@ Comparatordigi BX 8 Layer 5 halfstrip 71
 Comparatordigi BX 9 Layer 1 halfstrip 28
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 3322 Bend = 1
  Slope = 1 CFEB = 0 Strip = 10 KeyHalfStrip = 10 KeyQuartStrip = 21 KeyEighthStrip = 43
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 4 Run-3 Pattern = 2 Quality = 5 Comp Code 1724 Bend = 0
- Slope = 9 CFEB = 1 Strip = 9 KeyHalfStrip = 41 KeyQuartStrip = 82 KeyEighthStrip = 165
+CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 5 Run-3 Pattern = 1 Quality = 5 Comp Code 1491 Bend = 1
+ Slope = 10 CFEB = 0 Strip = 3 KeyHalfStrip = 3 KeyQuartStrip = 7 KeyEighthStrip = 14
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 4 Run-3 Pattern = 2 Quality = 5 Comp Code 1724 Bend = 0
  Slope = 9 CFEB = 1 Strip = 9 KeyHalfStrip = 41 KeyQuartStrip = 82 KeyEighthStrip = 165
-CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 4 Comp Code 2566 Bend = 0
- Slope = 12 CFEB = 0 Strip = 25 KeyHalfStrip = 25 KeyQuartStrip = 51 KeyEighthStrip = 103
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 4 Run-3 Pattern = 2 Quality = 3 Bend = 0 Slope = 9
  KeyHalfStrip = 41 KeyQuartStrip = 82 KeyEighthStrip = 165 KeyWireGroup = 68 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 3 Bend = 0 Slope = 12
- KeyHalfStrip = 25 KeyQuartStrip = 51 KeyEighthStrip = 103 KeyWireGroup = 50 Type (SIM) = 1 MPC Link = 0
+CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 4 Run-3 Pattern = 2 Quality = 3 Bend = 0 Slope = 9
+ KeyHalfStrip = 41 KeyQuartStrip = 82 KeyEighthStrip = 165 KeyWireGroup = 50 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 2, 4, 1, 7
 Comparatordigi BX 6 Layer 5 halfstrip 149
 Comparatordigi BX 7 Layer 3 halfstrip 149
@@ -3804,8 +3732,8 @@ Comparatordigi BX 8 Layer 4 halfstrip 91
 Comparatordigi BX 9 Layer 5 halfstrip 31
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 1454 Bend = 0
  Slope = 2 CFEB = 1 Strip = 23 KeyHalfStrip = 55 KeyQuartStrip = 110 KeyEighthStrip = 221
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 1771 Bend = 0
- Slope = 2 CFEB = 2 Strip = 14 KeyHalfStrip = 78 KeyQuartStrip = 157 KeyEighthStrip = 314
+CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 1598 Bend = 0
+ Slope = 2 CFEB = 2 Strip = 7 KeyHalfStrip = 71 KeyQuartStrip = 143 KeyEighthStrip = 286
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 1771 Bend = 0
  Slope = 2 CFEB = 2 Strip = 14 KeyHalfStrip = 78 KeyQuartStrip = 157 KeyEighthStrip = 314
 CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 5 Comp Code 2428 Bend = 0
@@ -3882,8 +3810,6 @@ Comparatordigi BX 7 Layer 4 halfstrip 67
 Comparatordigi BX 8 Layer 1 halfstrip 60
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 5 Comp Code 1980 Bend = 0
  Slope = 3 CFEB = 2 Strip = 2 KeyHalfStrip = 66 KeyQuartStrip = 132 KeyEighthStrip = 264
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 5 Run-3 Pattern = 3 Quality = 5 Comp Code 1001 Bend = 1
- Slope = 9 CFEB = 1 Strip = 28 KeyHalfStrip = 60 KeyQuartStrip = 120 KeyEighthStrip = 240
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 5 Run-3 Pattern = 3 Quality = 5 Comp Code 1001 Bend = 1
  Slope = 9 CFEB = 1 Strip = 28 KeyHalfStrip = 60 KeyQuartStrip = 120 KeyEighthStrip = 240
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 5 Run-3 Pattern = 3 Quality = 3 Bend = 1 Slope = 9
@@ -3949,9 +3875,7 @@ Comparatordigi BX 8 Layer 3 halfstrip 115
 Comparatordigi BX 8 Layer 5 halfstrip 119
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4031 Bend = 0
  Slope = 0 CFEB = 4 Strip = 2 KeyHalfStrip = 130 KeyQuartStrip = 260 KeyEighthStrip = 521
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3889 Bend = 1
- Slope = 2 CFEB = 3 Strip = 24 KeyHalfStrip = 120 KeyQuartStrip = 241 KeyEighthStrip = 482
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 947 Bend = 0
+CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 610 Bend = 0
  Slope = 0 CFEB = 3 Strip = 19 KeyHalfStrip = 115 KeyQuartStrip = 230 KeyEighthStrip = 460
 CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 1299 Bend = 0
  Slope = 2 CFEB = 3 Strip = 26 KeyHalfStrip = 122 KeyQuartStrip = 244 KeyEighthStrip = 488
@@ -3974,15 +3898,11 @@ Comparatordigi BX 8 Layer 2 halfstrip 104
 Comparatordigi BX 8 Layer 4 halfstrip 93
 Comparatordigi BX 8 Layer 5 halfstrip 94
 Comparatordigi BX 8 Layer 5 halfstrip 100
-CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3823 Bend = 0
- Slope = 0 CFEB = 2 Strip = 29 KeyHalfStrip = 93 KeyQuartStrip = 186 KeyEighthStrip = 372
-CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 4 Run-3 Pattern = 2 Quality = 6 Comp Code 1407 Bend = 0
+CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 4 Run-3 Pattern = 2 Quality = 6 Comp Code 1407 Bend = 0
  Slope = 10 CFEB = 3 Strip = 7 KeyHalfStrip = 103 KeyQuartStrip = 206 KeyEighthStrip = 412
 CSC CLCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 3820 Bend = 1
  Slope = 0 CFEB = 2 Strip = 29 KeyHalfStrip = 93 KeyQuartStrip = 186 KeyEighthStrip = 372
-CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 0 Slope = 0
- KeyHalfStrip = 93 KeyQuartStrip = 186 KeyEighthStrip = 372 KeyWireGroup = 52 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 4 Run-3 Pattern = 2 Quality = 3 Bend = 0 Slope = 10
+CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 4 Run-3 Pattern = 2 Quality = 3 Bend = 0 Slope = 10
  KeyHalfStrip = 103 KeyQuartStrip = 206 KeyEighthStrip = 412 KeyWireGroup = 52 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 1, 4, 1, 4
 Comparatordigi BX 6 Layer 1 halfstrip 96
@@ -4126,8 +4046,8 @@ Comparatordigi BX 7 Layer 5 halfstrip 112
 Comparatordigi BX 8 Layer 0 halfstrip 26
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 6 Comp Code 1387 Bend = 0
  Slope = 3 CFEB = 3 Strip = 7 KeyHalfStrip = 103 KeyQuartStrip = 206 KeyEighthStrip = 412
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 5 Comp Code 2771 Bend = 1
- Slope = 5 CFEB = 2 Strip = 26 KeyHalfStrip = 90 KeyQuartStrip = 180 KeyEighthStrip = 361
+CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 3113 Bend = 1
+ Slope = 15 CFEB = 3 Strip = 0 KeyHalfStrip = 96 KeyQuartStrip = 192 KeyEighthStrip = 385
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 5 Comp Code 2771 Bend = 1
  Slope = 5 CFEB = 2 Strip = 26 KeyHalfStrip = 90 KeyQuartStrip = 180 KeyEighthStrip = 361
 CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 4 Run-3 Pattern = 0 Quality = 4 Comp Code 2836 Bend = 0
@@ -4619,8 +4539,6 @@ CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 C
  Slope = 0 CFEB = 4 Strip = 1 KeyHalfStrip = 129 KeyQuartStrip = 259 KeyEighthStrip = 519
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 4 Quality = 4 Comp Code 3153 Bend = 1
  Slope = 3 CFEB = 4 Strip = 11 KeyHalfStrip = 139 KeyQuartStrip = 279 KeyEighthStrip = 558
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 4 Comp Code 811 Bend = 0
- Slope = 13 CFEB = 4 Strip = 20 KeyHalfStrip = 148 KeyQuartStrip = 297 KeyEighthStrip = 595
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 4 Comp Code 811 Bend = 0
  Slope = 13 CFEB = 4 Strip = 20 KeyHalfStrip = 148 KeyQuartStrip = 297 KeyEighthStrip = 595
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 3 Bend = 0 Slope = 13
@@ -4774,8 +4692,6 @@ Comparatordigi BX 8 Layer 1 halfstrip 100
 Comparatordigi BX 8 Layer 2 halfstrip 88
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3818 Bend = 1
  Slope = 1 CFEB = 2 Strip = 31 KeyHalfStrip = 95 KeyQuartStrip = 191 KeyEighthStrip = 382
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 5 Comp Code 1388 Bend = 0
- Slope = 4 CFEB = 2 Strip = 23 KeyHalfStrip = 87 KeyQuartStrip = 174 KeyEighthStrip = 349
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 5 Comp Code 1388 Bend = 0
  Slope = 4 CFEB = 2 Strip = 23 KeyHalfStrip = 87 KeyQuartStrip = 174 KeyEighthStrip = 349
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 3 Bend = 0 Slope = 4
@@ -4983,10 +4899,6 @@ Comparatordigi BX 7 Layer 5 halfstrip 134
 Comparatordigi BX 8 Layer 0 halfstrip 58
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2731 Bend = 0
  Slope = 1 CFEB = 3 Strip = 16 KeyHalfStrip = 112 KeyQuartStrip = 225 KeyEighthStrip = 450
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 219 Bend = 0
- Slope = 0 CFEB = 3 Strip = 6 KeyHalfStrip = 102 KeyQuartStrip = 205 KeyEighthStrip = 410
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 219 Bend = 0
- Slope = 0 CFEB = 3 Strip = 6 KeyHalfStrip = 102 KeyQuartStrip = 205 KeyEighthStrip = 410
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 219 Bend = 0
  Slope = 0 CFEB = 3 Strip = 6 KeyHalfStrip = 102 KeyQuartStrip = 205 KeyEighthStrip = 410
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 0 Slope = 0
@@ -5109,8 +5021,6 @@ Comparatordigi BX 7 Layer 2 halfstrip 19
 Comparatordigi BX 8 Layer 5 halfstrip 16
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3071 Bend = 0
  Slope = 1 CFEB = 0 Strip = 7 KeyHalfStrip = 7 KeyQuartStrip = 14 KeyEighthStrip = 29
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 5 Comp Code 959 Bend = 0
- Slope = 6 CFEB = 0 Strip = 18 KeyHalfStrip = 18 KeyQuartStrip = 37 KeyEighthStrip = 74
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 6 Comp Code 3007 Bend = 0
  Slope = 7 CFEB = 0 Strip = 18 KeyHalfStrip = 18 KeyQuartStrip = 37 KeyEighthStrip = 74
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 3 Bend = 0 Slope = 7
@@ -5392,8 +5302,8 @@ Comparatordigi BX 8 Layer 3 halfstrip 153
 Comparatordigi BX 9 Layer 1 halfstrip 74
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3509 Bend = 1
  Slope = 2 CFEB = 0 Strip = 3 KeyHalfStrip = 3 KeyQuartStrip = 6 KeyEighthStrip = 12
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 3025 Bend = 1
- Slope = 2 CFEB = 1 Strip = 8 KeyHalfStrip = 40 KeyQuartStrip = 80 KeyEighthStrip = 160
+CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 5 Comp Code 1847 Bend = 0
+ Slope = 14 CFEB = 0 Strip = 19 KeyHalfStrip = 19 KeyQuartStrip = 39 KeyEighthStrip = 78
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 3025 Bend = 1
  Slope = 2 CFEB = 1 Strip = 8 KeyHalfStrip = 40 KeyQuartStrip = 80 KeyEighthStrip = 160
 CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 4 Quality = 5 Comp Code 997 Bend = 1
@@ -5477,14 +5387,6 @@ Comparatordigi BX 8 Layer 0 halfstrip 38
 Comparatordigi BX 8 Layer 1 halfstrip 63
 Comparatordigi BX 8 Layer 3 halfstrip 19
 Comparatordigi BX 8 Layer 4 halfstrip 20
-CSC CLCT #1: Valid = 1 BX = 3 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 6 Comp Code 1435 Bend = 0
- Slope = 15 CFEB = 3 Strip = 4 KeyHalfStrip = 100 KeyQuartStrip = 200 KeyEighthStrip = 400
-CSC CLCT #2: Valid = 1 BX = 3 Run-2 Pattern = 4 Run-3 Pattern = 2 Quality = 4 Comp Code 335 Bend = 0
- Slope = 10 CFEB = 4 Strip = 22 KeyHalfStrip = 150 KeyQuartStrip = 301 KeyEighthStrip = 603
-CSC CLCT #1: Valid = 1 BX = 4 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 6 Comp Code 1435 Bend = 0
- Slope = 15 CFEB = 3 Strip = 4 KeyHalfStrip = 100 KeyQuartStrip = 200 KeyEighthStrip = 400
-CSC CLCT #2: Valid = 1 BX = 4 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 1270 Bend = 0
- Slope = 0 CFEB = 4 Strip = 25 KeyHalfStrip = 153 KeyQuartStrip = 306 KeyEighthStrip = 613
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2038 Bend = 1
  Slope = 0 CFEB = 4 Strip = 25 KeyHalfStrip = 153 KeyQuartStrip = 307 KeyEighthStrip = 614
 CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 6 Comp Code 1435 Bend = 0
@@ -5538,8 +5440,8 @@ Comparatordigi BX 8 Layer 0 halfstrip 24
 Comparatordigi BX 9 Layer 0 halfstrip 72
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 2955 Bend = 0
  Slope = 0 CFEB = 0 Strip = 2 KeyHalfStrip = 2 KeyQuartStrip = 5 KeyEighthStrip = 11
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 1265 Bend = 1
- Slope = 0 CFEB = 0 Strip = 19 KeyHalfStrip = 19 KeyQuartStrip = 38 KeyEighthStrip = 77
+CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 4 Comp Code 872 Bend = 1
+ Slope = 6 CFEB = 0 Strip = 7 KeyHalfStrip = 7 KeyQuartStrip = 15 KeyEighthStrip = 31
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 5 Comp Code 2223 Bend = 0
  Slope = 7 CFEB = 0 Strip = 21 KeyHalfStrip = 21 KeyQuartStrip = 42 KeyEighthStrip = 84
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 3 Bend = 0 Slope = 7
@@ -5616,12 +5518,10 @@ Comparatordigi BX 8 Layer 5 halfstrip 5
 Comparatordigi BX 8 Layer 5 halfstrip 152
 CSC CLCT #1: Valid = 1 BX = 4 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3806 Bend = 1
  Slope = 0 CFEB = 3 Strip = 24 KeyHalfStrip = 120 KeyQuartStrip = 241 KeyEighthStrip = 482
-CSC CLCT #2: Valid = 1 BX = 4 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3228 Bend = 1
- Slope = 1 CFEB = 2 Strip = 27 KeyHalfStrip = 91 KeyQuartStrip = 183 KeyEighthStrip = 366
-CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 5 Comp Code 2546 Bend = 0
- Slope = 14 CFEB = 4 Strip = 24 KeyHalfStrip = 152 KeyQuartStrip = 304 KeyEighthStrip = 609
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3228 Bend = 1
- Slope = 1 CFEB = 2 Strip = 27 KeyHalfStrip = 91 KeyQuartStrip = 183 KeyEighthStrip = 366
+CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 2821 Bend = 1
+ Slope = 2 CFEB = 3 Strip = 5 KeyHalfStrip = 101 KeyQuartStrip = 203 KeyEighthStrip = 407
+CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 4 Comp Code 573 Bend = 1
+ Slope = 7 CFEB = 4 Strip = 11 KeyHalfStrip = 139 KeyQuartStrip = 278 KeyEighthStrip = 557
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 5 Comp Code 3699 Bend = 0
  Slope = 6 CFEB = 4 Strip = 25 KeyHalfStrip = 153 KeyQuartStrip = 306 KeyEighthStrip = 613
 CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3228 Bend = 1
@@ -5843,18 +5743,10 @@ Comparatordigi BX 8 Layer 3 halfstrip 105
 Comparatordigi BX 8 Layer 4 halfstrip 90
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 6 Comp Code 1878 Bend = 1
  Slope = 6 CFEB = 2 Strip = 10 KeyHalfStrip = 74 KeyQuartStrip = 148 KeyEighthStrip = 297
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 4 Comp Code 2611 Bend = 0
- Slope = 7 CFEB = 3 Strip = 1 KeyHalfStrip = 97 KeyQuartStrip = 194 KeyEighthStrip = 389
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 4 Run-3 Pattern = 0 Quality = 5 Comp Code 3869 Bend = 0
- Slope = 11 CFEB = 3 Strip = 2 KeyHalfStrip = 98 KeyQuartStrip = 196 KeyEighthStrip = 393
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 604 Bend = 1
- Slope = 13 CFEB = 1 Strip = 20 KeyHalfStrip = 52 KeyQuartStrip = 104 KeyEighthStrip = 208
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 4 Run-3 Pattern = 0 Quality = 5 Comp Code 3869 Bend = 0
  Slope = 11 CFEB = 3 Strip = 2 KeyHalfStrip = 98 KeyQuartStrip = 196 KeyEighthStrip = 393
-CSC LCT #1: Valid = 1 BX = 7 Run-2 Pattern = 4 Run-3 Pattern = 0 Quality = 3 Bend = 0 Slope = 11
- KeyHalfStrip = 98 KeyQuartStrip = 196 KeyEighthStrip = 393 KeyWireGroup = 3 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 7 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 3 Bend = 1 Slope = 13
- KeyHalfStrip = 52 KeyQuartStrip = 104 KeyEighthStrip = 208 KeyWireGroup = 3 Type (SIM) = 1 MPC Link = 0
+CSC LCT #1: Valid = 1 BX = 7 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 3 Bend = 1 Slope = 6
+ KeyHalfStrip = 74 KeyQuartStrip = 148 KeyEighthStrip = 297 KeyWireGroup = 3 Type (SIM) = 1 MPC Link = 0
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 4 Run-3 Pattern = 0 Quality = 3 Bend = 0 Slope = 11
  KeyHalfStrip = 98 KeyQuartStrip = 196 KeyEighthStrip = 393 KeyWireGroup = 0 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 1, 4, 1, 7
@@ -5904,15 +5796,11 @@ Comparatordigi BX 8 Layer 0 halfstrip 73
 Comparatordigi BX 8 Layer 2 halfstrip 68
 Comparatordigi BX 8 Layer 3 halfstrip 46
 Comparatordigi BX 8 Layer 5 halfstrip 43
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 1817 Bend = 1
- Slope = 0 CFEB = 1 Strip = 10 KeyHalfStrip = 42 KeyQuartStrip = 85 KeyEighthStrip = 171
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 750 Bend = 0
+CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 750 Bend = 0
  Slope = 0 CFEB = 1 Strip = 23 KeyHalfStrip = 55 KeyQuartStrip = 111 KeyEighthStrip = 223
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 1817 Bend = 1
  Slope = 0 CFEB = 1 Strip = 10 KeyHalfStrip = 42 KeyQuartStrip = 85 KeyEighthStrip = 171
-CSC LCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 0
- KeyHalfStrip = 42 KeyQuartStrip = 85 KeyEighthStrip = 171 KeyWireGroup = 24 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 0 Slope = 0
+CSC LCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 0 Slope = 0
  KeyHalfStrip = 55 KeyQuartStrip = 111 KeyEighthStrip = 223 KeyWireGroup = 24 Type (SIM) = 1 MPC Link = 0
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 0
  KeyHalfStrip = 42 KeyQuartStrip = 85 KeyEighthStrip = 171 KeyWireGroup = 22 Type (SIM) = 1 MPC Link = 0
@@ -5997,16 +5885,14 @@ Comparatordigi BX 8 Layer 5 halfstrip 120
 Comparatordigi BX 9 Layer 5 halfstrip 114
 CSC CLCT #1: Valid = 1 BX = 4 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3417 Bend = 1
  Slope = 1 CFEB = 1 Strip = 23 KeyHalfStrip = 55 KeyQuartStrip = 111 KeyEighthStrip = 222
-CSC CLCT #2: Valid = 1 BX = 4 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 441 Bend = 1
- Slope = 0 CFEB = 1 Strip = 12 KeyHalfStrip = 44 KeyQuartStrip = 88 KeyEighthStrip = 176
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 441 Bend = 1
  Slope = 0 CFEB = 1 Strip = 12 KeyHalfStrip = 44 KeyQuartStrip = 88 KeyEighthStrip = 176
 CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 5 Comp Code 3954 Bend = 0
  Slope = 12 CFEB = 2 Strip = 15 KeyHalfStrip = 79 KeyQuartStrip = 158 KeyEighthStrip = 317
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 5 Comp Code 3409 Bend = 1
- Slope = 8 CFEB = 0 Strip = 7 KeyHalfStrip = 7 KeyQuartStrip = 14 KeyEighthStrip = 28
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 5 Comp Code 957 Bend = 0
+CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 5 Comp Code 957 Bend = 0
  Slope = 12 CFEB = 2 Strip = 25 KeyHalfStrip = 89 KeyQuartStrip = 179 KeyEighthStrip = 358
+CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 4 Comp Code 175 Bend = 0
+ Slope = 3 CFEB = 3 Strip = 2 KeyHalfStrip = 98 KeyQuartStrip = 197 KeyEighthStrip = 394
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 5 Comp Code 3409 Bend = 1
  Slope = 8 CFEB = 0 Strip = 7 KeyHalfStrip = 7 KeyQuartStrip = 14 KeyEighthStrip = 28
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 3 Bend = 1 Slope = 8
@@ -6047,8 +5933,8 @@ Comparatordigi BX 8 Layer 3 halfstrip 91
 Comparatordigi BX 8 Layer 5 halfstrip 108
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4095 Bend = 1
  Slope = 0 CFEB = 3 Strip = 6 KeyHalfStrip = 102 KeyQuartStrip = 204 KeyEighthStrip = 409
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 5 Run-3 Pattern = 1 Quality = 5 Comp Code 2556 Bend = 1
- Slope = 11 CFEB = 2 Strip = 24 KeyHalfStrip = 88 KeyQuartStrip = 176 KeyEighthStrip = 352
+CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 4 Comp Code 2416 Bend = 1
+ Slope = 3 CFEB = 2 Strip = 31 KeyHalfStrip = 95 KeyQuartStrip = 190 KeyEighthStrip = 381
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 5 Run-3 Pattern = 1 Quality = 5 Comp Code 2556 Bend = 1
  Slope = 11 CFEB = 2 Strip = 24 KeyHalfStrip = 88 KeyQuartStrip = 176 KeyEighthStrip = 352
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 5 Run-3 Pattern = 1 Quality = 3 Bend = 1 Slope = 11
@@ -6075,9 +5961,7 @@ Comparatordigi BX 8 Layer 2 halfstrip 107
 Comparatordigi BX 8 Layer 4 halfstrip 145
 Comparatordigi BX 8 Layer 5 halfstrip 98
 Comparatordigi BX 9 Layer 4 halfstrip 128
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 6 Comp Code 1367 Bend = 1
- Slope = 3 CFEB = 3 Strip = 10 KeyHalfStrip = 106 KeyQuartStrip = 212 KeyEighthStrip = 425
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 4 Quality = 5 Comp Code 3665 Bend = 1
+CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 4 Quality = 5 Comp Code 3665 Bend = 1
  Slope = 3 CFEB = 4 Strip = 2 KeyHalfStrip = 130 KeyQuartStrip = 261 KeyEighthStrip = 522
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 6 Comp Code 1367 Bend = 1
  Slope = 3 CFEB = 3 Strip = 10 KeyHalfStrip = 106 KeyQuartStrip = 212 KeyEighthStrip = 425
@@ -6346,10 +6230,8 @@ Comparatordigi BX 7 Layer 3 halfstrip 13
 Comparatordigi BX 7 Layer 5 halfstrip 4
 Comparatordigi BX 8 Layer 1 halfstrip 11
 Comparatordigi BX 8 Layer 2 halfstrip 17
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 6 Comp Code 2982 Bend = 0
- Slope = 4 CFEB = 0 Strip = 5 KeyHalfStrip = 5 KeyQuartStrip = 11 KeyEighthStrip = 22
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 1988 Bend = 1
- Slope = 0 CFEB = 0 Strip = 11 KeyHalfStrip = 11 KeyQuartStrip = 22 KeyEighthStrip = 44
+CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 4 Comp Code 436 Bend = 1
+ Slope = 4 CFEB = 0 Strip = 11 KeyHalfStrip = 11 KeyQuartStrip = 23 KeyEighthStrip = 47
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 6 Comp Code 2982 Bend = 0
  Slope = 4 CFEB = 0 Strip = 5 KeyHalfStrip = 5 KeyQuartStrip = 11 KeyEighthStrip = 22
 CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 1988 Bend = 1
@@ -6451,11 +6333,7 @@ Comparatordigi BX 8 Layer 4 halfstrip 102
 Comparatordigi BX 9 Layer 1 halfstrip 154
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3738 Bend = 1
  Slope = 1 CFEB = 3 Strip = 23 KeyHalfStrip = 119 KeyQuartStrip = 238 KeyEighthStrip = 477
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 5 Comp Code 2977 Bend = 1
- Slope = 14 CFEB = 3 Strip = 8 KeyHalfStrip = 104 KeyQuartStrip = 208 KeyEighthStrip = 417
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 4 Run-3 Pattern = 0 Quality = 6 Comp Code 3065 Bend = 0
- Slope = 11 CFEB = 4 Strip = 20 KeyHalfStrip = 148 KeyQuartStrip = 297 KeyEighthStrip = 594
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 5 Comp Code 603 Bend = 0
+CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 5 Comp Code 603 Bend = 0
  Slope = 15 CFEB = 3 Strip = 9 KeyHalfStrip = 105 KeyQuartStrip = 210 KeyEighthStrip = 420
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 4 Run-3 Pattern = 0 Quality = 6 Comp Code 3065 Bend = 0
  Slope = 11 CFEB = 4 Strip = 20 KeyHalfStrip = 148 KeyQuartStrip = 297 KeyEighthStrip = 594
@@ -6488,8 +6366,6 @@ Comparatordigi BX 8 Layer 0 halfstrip 129
 Comparatordigi BX 8 Layer 1 halfstrip 128
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4095 Bend = 1
  Slope = 0 CFEB = 3 Strip = 22 KeyHalfStrip = 118 KeyQuartStrip = 236 KeyEighthStrip = 473
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 1458 Bend = 0
- Slope = 2 CFEB = 3 Strip = 29 KeyHalfStrip = 125 KeyQuartStrip = 250 KeyEighthStrip = 501
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 4 Comp Code 1045 Bend = 0
  Slope = 6 CFEB = 3 Strip = 30 KeyHalfStrip = 126 KeyQuartStrip = 253 KeyEighthStrip = 506
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 3 Bend = 0 Slope = 6
@@ -6589,8 +6465,6 @@ Comparatordigi BX 7 Layer 3 halfstrip 111
 Comparatordigi BX 8 Layer 1 halfstrip 109
 Comparatordigi BX 8 Layer 3 halfstrip 106
 Comparatordigi BX 8 Layer 4 halfstrip 104
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 314 Bend = 0
- Slope = 1 CFEB = 3 Strip = 12 KeyHalfStrip = 108 KeyQuartStrip = 216 KeyEighthStrip = 433
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 314 Bend = 0
  Slope = 1 CFEB = 3 Strip = 12 KeyHalfStrip = 108 KeyQuartStrip = 216 KeyEighthStrip = 433
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 0 Slope = 1
@@ -6754,10 +6628,6 @@ Comparatordigi BX 8 Layer 4 halfstrip 24
 Comparatordigi BX 8 Layer 5 halfstrip 19
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 6 Comp Code 3413 Bend = 0
  Slope = 3 CFEB = 0 Strip = 30 KeyHalfStrip = 30 KeyQuartStrip = 61 KeyEighthStrip = 123
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3145 Bend = 1
- Slope = 2 CFEB = 0 Strip = 23 KeyHalfStrip = 23 KeyQuartStrip = 46 KeyEighthStrip = 92
-CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 4 Comp Code 151 Bend = 0
- Slope = 15 CFEB = 1 Strip = 4 KeyHalfStrip = 36 KeyQuartStrip = 73 KeyEighthStrip = 147
 CSC CLCT #1: Valid = 1 BX = 8 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 4 Comp Code 151 Bend = 0
  Slope = 15 CFEB = 1 Strip = 4 KeyHalfStrip = 36 KeyQuartStrip = 73 KeyEighthStrip = 147
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 3 Bend = 0 Slope = 15
@@ -6842,8 +6712,8 @@ Comparatordigi BX 8 Layer 3 halfstrip 53
 Comparatordigi BX 9 Layer 4 halfstrip 54
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4006 Bend = 1
  Slope = 2 CFEB = 1 Strip = 31 KeyHalfStrip = 63 KeyQuartStrip = 126 KeyEighthStrip = 253
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3160 Bend = 1
- Slope = 2 CFEB = 1 Strip = 20 KeyHalfStrip = 52 KeyQuartStrip = 105 KeyEighthStrip = 211
+CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 4 Comp Code 931 Bend = 1
+ Slope = 5 CFEB = 1 Strip = 24 KeyHalfStrip = 56 KeyQuartStrip = 112 KeyEighthStrip = 225
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 3672 Bend = 1
  Slope = 2 CFEB = 1 Strip = 20 KeyHalfStrip = 52 KeyQuartStrip = 105 KeyEighthStrip = 211
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 2
@@ -6886,10 +6756,10 @@ Comparatordigi BX 8 Layer 2 halfstrip 43
 Comparatordigi BX 8 Layer 2 halfstrip 76
 Comparatordigi BX 8 Layer 2 halfstrip 77
 Comparatordigi BX 8 Layer 4 halfstrip 96
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2030 Bend = 0
- Slope = 0 CFEB = 2 Strip = 11 KeyHalfStrip = 75 KeyQuartStrip = 151 KeyEighthStrip = 303
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 5 Comp Code 3028 Bend = 1
+CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 5 Comp Code 3028 Bend = 1
  Slope = 8 CFEB = 2 Strip = 1 KeyHalfStrip = 65 KeyQuartStrip = 131 KeyEighthStrip = 262
+CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 4 Comp Code 2317 Bend = 0
+ Slope = 13 CFEB = 2 Strip = 9 KeyHalfStrip = 73 KeyQuartStrip = 146 KeyEighthStrip = 292
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2030 Bend = 0
  Slope = 0 CFEB = 2 Strip = 11 KeyHalfStrip = 75 KeyQuartStrip = 151 KeyEighthStrip = 303
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 0 Slope = 0
@@ -7559,8 +7429,8 @@ Comparatordigi BX 8 Layer 3 halfstrip 91
 Comparatordigi BX 8 Layer 5 halfstrip 40
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 6 Comp Code 2981 Bend = 0
  Slope = 3 CFEB = 1 Strip = 20 KeyHalfStrip = 52 KeyQuartStrip = 104 KeyEighthStrip = 209
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 6 Comp Code 2779 Bend = 1
- Slope = 13 CFEB = 1 Strip = 2 KeyHalfStrip = 34 KeyQuartStrip = 69 KeyEighthStrip = 138
+CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 2233 Bend = 1
+ Slope = 1 CFEB = 1 Strip = 12 KeyHalfStrip = 44 KeyQuartStrip = 88 KeyEighthStrip = 177
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 6 Comp Code 2779 Bend = 1
  Slope = 13 CFEB = 1 Strip = 2 KeyHalfStrip = 34 KeyQuartStrip = 69 KeyEighthStrip = 138
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 3 Bend = 1 Slope = 13
@@ -7798,12 +7668,10 @@ Comparatordigi BX 7 Layer 4 halfstrip 29
 Comparatordigi BX 7 Layer 5 halfstrip 34
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3839 Bend = 0
  Slope = 0 CFEB = 0 Strip = 21 KeyHalfStrip = 21 KeyQuartStrip = 42 KeyEighthStrip = 85
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 4 Comp Code 620 Bend = 0
- Slope = 3 CFEB = 0 Strip = 28 KeyHalfStrip = 28 KeyQuartStrip = 57 KeyEighthStrip = 114
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 0 Slope = 0
  KeyHalfStrip = 21 KeyQuartStrip = 42 KeyEighthStrip = 85 KeyWireGroup = 60 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 3 Bend = 0 Slope = 3
- KeyHalfStrip = 28 KeyQuartStrip = 57 KeyEighthStrip = 114 KeyWireGroup = 57 Type (SIM) = 1 MPC Link = 0
+CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 0 Slope = 0
+ KeyHalfStrip = 21 KeyQuartStrip = 42 KeyEighthStrip = 85 KeyWireGroup = 57 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 2, 4, 1, 17
 Comparatordigi BX 6 Layer 2 halfstrip 154
 Comparatordigi BX 7 Layer 0 halfstrip 153
@@ -8012,8 +7880,6 @@ Comparatordigi BX 8 Layer 4 halfstrip 141
 Comparatordigi BX 9 Layer 2 halfstrip 135
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 6 Comp Code 1750 Bend = 1
  Slope = 13 CFEB = 4 Strip = 1 KeyHalfStrip = 129 KeyQuartStrip = 258 KeyEighthStrip = 516
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 5 Comp Code 702 Bend = 0
- Slope = 6 CFEB = 4 Strip = 14 KeyHalfStrip = 142 KeyQuartStrip = 284 KeyEighthStrip = 568
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 5 Comp Code 702 Bend = 0
  Slope = 6 CFEB = 4 Strip = 14 KeyHalfStrip = 142 KeyQuartStrip = 284 KeyEighthStrip = 568
 CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 4 Comp Code 2075 Bend = 1
@@ -8058,16 +7924,12 @@ Comparatordigi BX 8 Layer 2 halfstrip 125
 Comparatordigi BX 8 Layer 3 halfstrip 129
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3170 Bend = 1
  Slope = 1 CFEB = 4 Strip = 8 KeyHalfStrip = 136 KeyQuartStrip = 272 KeyEighthStrip = 545
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 724 Bend = 1
- Slope = 15 CFEB = 3 Strip = 28 KeyHalfStrip = 124 KeyQuartStrip = 249 KeyEighthStrip = 499
-CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 724 Bend = 1
- Slope = 15 CFEB = 3 Strip = 28 KeyHalfStrip = 124 KeyQuartStrip = 249 KeyEighthStrip = 499
-CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 2162 Bend = 1
+CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 2162 Bend = 1
  Slope = 12 CFEB = 4 Strip = 17 KeyHalfStrip = 145 KeyQuartStrip = 291 KeyEighthStrip = 582
 CSC CLCT #1: Valid = 1 BX = 8 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 724 Bend = 1
  Slope = 15 CFEB = 3 Strip = 28 KeyHalfStrip = 124 KeyQuartStrip = 249 KeyEighthStrip = 499
-CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 3 Bend = 1 Slope = 15
- KeyHalfStrip = 124 KeyQuartStrip = 249 KeyEighthStrip = 499 KeyWireGroup = 17 Type (SIM) = 1 MPC Link = 0
+CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 3 Bend = 1 Slope = 12
+ KeyHalfStrip = 145 KeyQuartStrip = 291 KeyEighthStrip = 582 KeyWireGroup = 17 Type (SIM) = 1 MPC Link = 0
 CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 3 Bend = 1 Slope = 12
  KeyHalfStrip = 145 KeyQuartStrip = 291 KeyEighthStrip = 582 KeyWireGroup = 8 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 1, 4, 1, 13
@@ -8106,8 +7968,6 @@ Comparatordigi BX 8 Layer 4 halfstrip 123
 Comparatordigi BX 8 Layer 4 halfstrip 155
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2982 Bend = 1
  Slope = 1 CFEB = 4 Strip = 4 KeyHalfStrip = 132 KeyQuartStrip = 264 KeyEighthStrip = 529
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 1567 Bend = 0
- Slope = 2 CFEB = 4 Strip = 18 KeyHalfStrip = 146 KeyQuartStrip = 293 KeyEighthStrip = 586
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 1567 Bend = 0
  Slope = 2 CFEB = 4 Strip = 18 KeyHalfStrip = 146 KeyQuartStrip = 293 KeyEighthStrip = 586
 CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 4 Comp Code 3880 Bend = 1
@@ -8207,9 +8067,7 @@ Comparatordigi BX 7 Layer 5 halfstrip 149
 Comparatordigi BX 8 Layer 1 halfstrip 128
 Comparatordigi BX 8 Layer 4 halfstrip 152
 Comparatordigi BX 9 Layer 2 halfstrip 158
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 5 Comp Code 3223 Bend = 1
- Slope = 14 CFEB = 4 Strip = 2 KeyHalfStrip = 130 KeyQuartStrip = 260 KeyEighthStrip = 521
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 1843 Bend = 0
+CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 1843 Bend = 0
  Slope = 2 CFEB = 4 Strip = 10 KeyHalfStrip = 138 KeyQuartStrip = 276 KeyEighthStrip = 552
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 5 Comp Code 3223 Bend = 1
  Slope = 14 CFEB = 4 Strip = 2 KeyHalfStrip = 130 KeyQuartStrip = 260 KeyEighthStrip = 521
@@ -8629,22 +8487,18 @@ CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 6 Co
  Slope = 14 CFEB = 3 Strip = 31 KeyHalfStrip = 127 KeyQuartStrip = 255 KeyEighthStrip = 511
 CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 2326 Bend = 1
  Slope = 0 CFEB = 4 Strip = 4 KeyHalfStrip = 132 KeyQuartStrip = 265 KeyEighthStrip = 530
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 6 Comp Code 1465 Bend = 1
- Slope = 12 CFEB = 3 Strip = 22 KeyHalfStrip = 118 KeyQuartStrip = 236 KeyEighthStrip = 472
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 2857 Bend = 1
+CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 2857 Bend = 1
  Slope = 1 CFEB = 4 Strip = 12 KeyHalfStrip = 140 KeyQuartStrip = 280 KeyEighthStrip = 561
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 6 Comp Code 1465 Bend = 1
  Slope = 12 CFEB = 3 Strip = 22 KeyHalfStrip = 118 KeyQuartStrip = 236 KeyEighthStrip = 472
-CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 4 Comp Code 497 Bend = 0
- Slope = 4 CFEB = 4 Strip = 27 KeyHalfStrip = 155 KeyQuartStrip = 311 KeyEighthStrip = 623
 CSC CLCT #1: Valid = 1 BX = 8 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 4 Comp Code 497 Bend = 0
  Slope = 4 CFEB = 4 Strip = 27 KeyHalfStrip = 155 KeyQuartStrip = 311 KeyEighthStrip = 623
 CSC CLCT #2: Valid = 1 BX = 8 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 3472 Bend = 1
  Slope = 15 CFEB = 3 Strip = 8 KeyHalfStrip = 104 KeyQuartStrip = 208 KeyEighthStrip = 417
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 3 Bend = 1 Slope = 12
  KeyHalfStrip = 118 KeyQuartStrip = 236 KeyEighthStrip = 472 KeyWireGroup = 69 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 3 Bend = 0 Slope = 4
- KeyHalfStrip = 155 KeyQuartStrip = 311 KeyEighthStrip = 623 KeyWireGroup = 58 Type (SIM) = 1 MPC Link = 0
+CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 3 Bend = 1 Slope = 12
+ KeyHalfStrip = 118 KeyQuartStrip = 236 KeyEighthStrip = 472 KeyWireGroup = 58 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 1, 4, 1, 2
 Comparatordigi BX 6 Layer 0 halfstrip 133
 Comparatordigi BX 6 Layer 5 halfstrip 131
@@ -8683,9 +8537,7 @@ Comparatordigi BX 8 Layer 1 halfstrip 19
 Comparatordigi BX 8 Layer 3 halfstrip 13
 Comparatordigi BX 8 Layer 4 halfstrip 31
 Comparatordigi BX 8 Layer 5 halfstrip 15
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3963 Bend = 1
- Slope = 0 CFEB = 0 Strip = 25 KeyHalfStrip = 25 KeyQuartStrip = 51 KeyEighthStrip = 103
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 472 Bend = 0
+CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 472 Bend = 0
  Slope = 0 CFEB = 1 Strip = 4 KeyHalfStrip = 36 KeyQuartStrip = 72 KeyEighthStrip = 144
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 891 Bend = 0
  Slope = 0 CFEB = 0 Strip = 25 KeyHalfStrip = 25 KeyQuartStrip = 51 KeyEighthStrip = 103
@@ -8839,8 +8691,6 @@ Comparatordigi BX 8 Layer 1 halfstrip 113
 Comparatordigi BX 8 Layer 5 halfstrip 114
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 3898 Bend = 1
  Slope = 1 CFEB = 4 Strip = 7 KeyHalfStrip = 135 KeyQuartStrip = 271 KeyEighthStrip = 543
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 5 Comp Code 2420 Bend = 1
- Slope = 5 CFEB = 3 Strip = 25 KeyHalfStrip = 121 KeyQuartStrip = 243 KeyEighthStrip = 486
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 6 Comp Code 4075 Bend = 0
  Slope = 12 CFEB = 4 Strip = 24 KeyHalfStrip = 152 KeyQuartStrip = 305 KeyEighthStrip = 611
 CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 5 Comp Code 2420 Bend = 1
@@ -8927,8 +8777,8 @@ Comparatordigi BX 8 Layer 4 halfstrip 131
 Comparatordigi BX 9 Layer 5 halfstrip 61
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3754 Bend = 1
  Slope = 1 CFEB = 3 Strip = 17 KeyHalfStrip = 113 KeyQuartStrip = 226 KeyEighthStrip = 453
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 5 Run-3 Pattern = 1 Quality = 5 Comp Code 1146 Bend = 1
- Slope = 11 CFEB = 4 Strip = 4 KeyHalfStrip = 132 KeyQuartStrip = 264 KeyEighthStrip = 528
+CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 4 Comp Code 2183 Bend = 1
+ Slope = 5 CFEB = 3 Strip = 3 KeyHalfStrip = 99 KeyQuartStrip = 199 KeyEighthStrip = 399
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 5 Run-3 Pattern = 1 Quality = 5 Comp Code 1146 Bend = 1
  Slope = 11 CFEB = 4 Strip = 4 KeyHalfStrip = 132 KeyQuartStrip = 264 KeyEighthStrip = 528
 CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 4 Quality = 4 Comp Code 821 Bend = 1
@@ -8962,9 +8812,7 @@ Comparatordigi BX 7 Layer 3 halfstrip 55
 Comparatordigi BX 7 Layer 4 halfstrip 54
 Comparatordigi BX 7 Layer 5 halfstrip 52
 Comparatordigi BX 9 Layer 1 halfstrip 45
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 6 Comp Code 3067 Bend = 0
- Slope = 6 CFEB = 1 Strip = 22 KeyHalfStrip = 54 KeyQuartStrip = 109 KeyEighthStrip = 218
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3011 Bend = 0
+CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3011 Bend = 0
  Slope = 1 CFEB = 1 Strip = 12 KeyHalfStrip = 44 KeyQuartStrip = 88 KeyEighthStrip = 177
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 6 Comp Code 3067 Bend = 0
  Slope = 6 CFEB = 1 Strip = 22 KeyHalfStrip = 54 KeyQuartStrip = 109 KeyEighthStrip = 218
@@ -9139,8 +8987,6 @@ Comparatordigi BX 8 Layer 5 halfstrip 123
 Comparatordigi BX 9 Layer 0 halfstrip 119
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3001 Bend = 1
  Slope = 1 CFEB = 4 Strip = 27 KeyHalfStrip = 155 KeyQuartStrip = 310 KeyEighthStrip = 621
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 217 Bend = 1
- Slope = 15 CFEB = 3 Strip = 17 KeyHalfStrip = 113 KeyQuartStrip = 226 KeyEighthStrip = 453
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 217 Bend = 1
  Slope = 15 CFEB = 3 Strip = 17 KeyHalfStrip = 113 KeyQuartStrip = 226 KeyEighthStrip = 453
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 3 Bend = 1 Slope = 15
@@ -9170,8 +9016,6 @@ Comparatordigi BX 7 Layer 1 halfstrip 82
 Comparatordigi BX 7 Layer 5 halfstrip 5
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4090 Bend = 1
  Slope = 1 CFEB = 0 Strip = 12 KeyHalfStrip = 12 KeyQuartStrip = 25 KeyEighthStrip = 51
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 5 Comp Code 1309 Bend = 0
- Slope = 14 CFEB = 0 Strip = 28 KeyHalfStrip = 28 KeyQuartStrip = 57 KeyEighthStrip = 114
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 5 Comp Code 1309 Bend = 0
  Slope = 14 CFEB = 0 Strip = 28 KeyHalfStrip = 28 KeyQuartStrip = 57 KeyEighthStrip = 114
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 3 Bend = 0 Slope = 14
@@ -9231,12 +9075,8 @@ Comparatordigi BX 8 Layer 3 halfstrip 115
 Comparatordigi BX 9 Layer 2 halfstrip 87
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3823 Bend = 0
  Slope = 0 CFEB = 3 Strip = 4 KeyHalfStrip = 100 KeyQuartStrip = 200 KeyEighthStrip = 400
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2667 Bend = 0
- Slope = 1 CFEB = 3 Strip = 10 KeyHalfStrip = 106 KeyQuartStrip = 212 KeyEighthStrip = 425
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2667 Bend = 0
  Slope = 1 CFEB = 3 Strip = 10 KeyHalfStrip = 106 KeyQuartStrip = 212 KeyEighthStrip = 425
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 5 Comp Code 686 Bend = 1
- Slope = 13 CFEB = 2 Strip = 13 KeyHalfStrip = 77 KeyQuartStrip = 155 KeyEighthStrip = 310
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 5 Comp Code 686 Bend = 1
  Slope = 13 CFEB = 2 Strip = 13 KeyHalfStrip = 77 KeyQuartStrip = 155 KeyEighthStrip = 310
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 3 Bend = 1 Slope = 13
@@ -9313,8 +9153,8 @@ Comparatordigi BX 7 Layer 2 halfstrip 106
 Comparatordigi BX 8 Layer 1 halfstrip 109
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2799 Bend = 0
  Slope = 1 CFEB = 2 Strip = 28 KeyHalfStrip = 92 KeyQuartStrip = 184 KeyEighthStrip = 368
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 5 Comp Code 685 Bend = 1
- Slope = 14 CFEB = 2 Strip = 19 KeyHalfStrip = 83 KeyQuartStrip = 167 KeyEighthStrip = 334
+CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 344 Bend = 1
+ Slope = 13 CFEB = 2 Strip = 19 KeyHalfStrip = 83 KeyQuartStrip = 167 KeyEighthStrip = 334
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 5 Comp Code 685 Bend = 1
  Slope = 14 CFEB = 2 Strip = 19 KeyHalfStrip = 83 KeyQuartStrip = 167 KeyEighthStrip = 334
 CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 5 Comp Code 1708 Bend = 0
@@ -9340,14 +9180,10 @@ Comparatordigi BX 8 Layer 4 halfstrip 102
 Comparatordigi BX 9 Layer 5 halfstrip 100
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 2282 Bend = 1
  Slope = 0 CFEB = 2 Strip = 27 KeyHalfStrip = 91 KeyQuartStrip = 183 KeyEighthStrip = 366
-CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 5 Comp Code 2874 Bend = 0
- Slope = 13 CFEB = 3 Strip = 8 KeyHalfStrip = 104 KeyQuartStrip = 209 KeyEighthStrip = 418
 CSC CLCT #1: Valid = 1 BX = 8 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 5 Comp Code 2874 Bend = 0
  Slope = 13 CFEB = 3 Strip = 8 KeyHalfStrip = 104 KeyQuartStrip = 209 KeyEighthStrip = 418
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 0
  KeyHalfStrip = 91 KeyQuartStrip = 183 KeyEighthStrip = 366 KeyWireGroup = 41 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 3 Bend = 0 Slope = 13
- KeyHalfStrip = 104 KeyQuartStrip = 209 KeyEighthStrip = 418 KeyWireGroup = 41 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 1, 3, 1, 3
 Comparatordigi BX 6 Layer 2 halfstrip 62
 Comparatordigi BX 6 Layer 3 halfstrip 73
@@ -9512,8 +9348,8 @@ Comparatordigi BX 7 Layer 5 halfstrip 61
 Comparatordigi BX 8 Layer 5 halfstrip 28
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2810 Bend = 1
  Slope = 0 CFEB = 1 Strip = 10 KeyHalfStrip = 42 KeyQuartStrip = 85 KeyEighthStrip = 170
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 6 Comp Code 3514 Bend = 0
- Slope = 5 CFEB = 0 Strip = 19 KeyHalfStrip = 19 KeyQuartStrip = 39 KeyEighthStrip = 79
+CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 6 Comp Code 3003 Bend = 0
+ Slope = 14 CFEB = 1 Strip = 21 KeyHalfStrip = 53 KeyQuartStrip = 107 KeyEighthStrip = 215
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 6 Comp Code 3514 Bend = 0
  Slope = 5 CFEB = 0 Strip = 19 KeyHalfStrip = 19 KeyQuartStrip = 39 KeyEighthStrip = 79
 CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 6 Comp Code 4009 Bend = 1
@@ -9576,8 +9412,6 @@ Comparatordigi BX 8 Layer 1 halfstrip 112
 Comparatordigi BX 8 Layer 5 halfstrip 116
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 943 Bend = 0
  Slope = 0 CFEB = 3 Strip = 15 KeyHalfStrip = 111 KeyQuartStrip = 222 KeyEighthStrip = 444
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 5 Comp Code 3004 Bend = 0
- Slope = 7 CFEB = 3 Strip = 22 KeyHalfStrip = 118 KeyQuartStrip = 237 KeyEighthStrip = 474
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 5 Comp Code 3004 Bend = 0
  Slope = 7 CFEB = 3 Strip = 22 KeyHalfStrip = 118 KeyQuartStrip = 237 KeyEighthStrip = 474
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 3 Bend = 0 Slope = 7
@@ -9736,8 +9570,6 @@ Comparatordigi BX 7 Layer 5 halfstrip 43
 Comparatordigi BX 8 Layer 3 halfstrip 38
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2734 Bend = 0
  Slope = 0 CFEB = 1 Strip = 16 KeyHalfStrip = 48 KeyQuartStrip = 97 KeyEighthStrip = 194
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 4 Comp Code 845 Bend = 0
- Slope = 4 CFEB = 1 Strip = 26 KeyHalfStrip = 58 KeyQuartStrip = 117 KeyEighthStrip = 235
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 4 Comp Code 845 Bend = 0
  Slope = 4 CFEB = 1 Strip = 26 KeyHalfStrip = 58 KeyQuartStrip = 117 KeyEighthStrip = 235
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 3 Bend = 0 Slope = 4
@@ -9869,8 +9701,6 @@ Comparatordigi BX 8 Layer 3 halfstrip 144
 Comparatordigi BX 8 Layer 5 halfstrip 95
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4030 Bend = 1
  Slope = 0 CFEB = 4 Strip = 26 KeyHalfStrip = 154 KeyQuartStrip = 308 KeyEighthStrip = 616
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 3676 Bend = 1
- Slope = 0 CFEB = 3 Strip = 26 KeyHalfStrip = 122 KeyQuartStrip = 244 KeyEighthStrip = 489
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 3676 Bend = 1
  Slope = 0 CFEB = 3 Strip = 26 KeyHalfStrip = 122 KeyQuartStrip = 244 KeyEighthStrip = 489
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 0
@@ -10140,8 +9970,6 @@ CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 4 Run-3 Pattern = 0 Quality = 5 Co
  Slope = 10 CFEB = 0 Strip = 28 KeyHalfStrip = 28 KeyQuartStrip = 57 KeyEighthStrip = 115
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 4028 Bend = 1
  Slope = 0 CFEB = 0 Strip = 22 KeyHalfStrip = 22 KeyQuartStrip = 44 KeyEighthStrip = 88
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 790 Bend = 1
- Slope = 15 CFEB = 0 Strip = 4 KeyHalfStrip = 4 KeyQuartStrip = 8 KeyEighthStrip = 17
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 4 Comp Code 3824 Bend = 1
  Slope = 4 CFEB = 0 Strip = 13 KeyHalfStrip = 13 KeyQuartStrip = 26 KeyEighthStrip = 52
 CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 790 Bend = 1
@@ -10247,12 +10075,8 @@ Comparatordigi BX 7 Layer 3 halfstrip 115
 Comparatordigi BX 7 Layer 5 halfstrip 96
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2715 Bend = 0
  Slope = 0 CFEB = 3 Strip = 11 KeyHalfStrip = 107 KeyQuartStrip = 214 KeyEighthStrip = 429
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 4 Run-3 Pattern = 0 Quality = 4 Comp Code 3149 Bend = 0
- Slope = 11 CFEB = 3 Strip = 3 KeyHalfStrip = 99 KeyQuartStrip = 198 KeyEighthStrip = 397
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 4 Run-3 Pattern = 0 Quality = 4 Comp Code 3149 Bend = 0
  Slope = 11 CFEB = 3 Strip = 3 KeyHalfStrip = 99 KeyQuartStrip = 198 KeyEighthStrip = 397
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 4 Comp Code 684 Bend = 0
- Slope = 15 CFEB = 3 Strip = 20 KeyHalfStrip = 116 KeyQuartStrip = 233 KeyEighthStrip = 467
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 4 Comp Code 684 Bend = 0
  Slope = 15 CFEB = 3 Strip = 20 KeyHalfStrip = 116 KeyQuartStrip = 233 KeyEighthStrip = 467
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 3 Bend = 0 Slope = 15
@@ -10348,8 +10172,6 @@ Comparatordigi BX 6 Layer 5 halfstrip 24
 Comparatordigi BX 7 Layer 0 halfstrip 26
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4075 Bend = 1
  Slope = 0 CFEB = 0 Strip = 14 KeyHalfStrip = 14 KeyQuartStrip = 28 KeyEighthStrip = 56
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 1691 Bend = 0
- Slope = 2 CFEB = 0 Strip = 24 KeyHalfStrip = 24 KeyQuartStrip = 48 KeyEighthStrip = 97
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 1691 Bend = 0
  Slope = 2 CFEB = 0 Strip = 24 KeyHalfStrip = 24 KeyQuartStrip = 48 KeyEighthStrip = 97
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 0 Slope = 2
@@ -10577,14 +10399,12 @@ Comparatordigi BX 8 Layer 5 halfstrip 93
 Comparatordigi BX 9 Layer 3 halfstrip 87
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 5 Comp Code 1778 Bend = 1
  Slope = 4 CFEB = 2 Strip = 27 KeyHalfStrip = 91 KeyQuartStrip = 182 KeyEighthStrip = 365
-CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 4 Comp Code 1000 Bend = 1
- Slope = 8 CFEB = 2 Strip = 21 KeyHalfStrip = 85 KeyQuartStrip = 170 KeyEighthStrip = 341
 CSC CLCT #1: Valid = 1 BX = 8 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 4 Comp Code 1000 Bend = 1
  Slope = 8 CFEB = 2 Strip = 21 KeyHalfStrip = 85 KeyQuartStrip = 170 KeyEighthStrip = 341
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 2 Bend = 1 Slope = 4
  KeyHalfStrip = 91 KeyQuartStrip = 182 KeyEighthStrip = 365 KeyWireGroup = 62 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 2 Bend = 1 Slope = 8
- KeyHalfStrip = 85 KeyQuartStrip = 170 KeyEighthStrip = 341 KeyWireGroup = 58 Type (SIM) = 1 MPC Link = 0
+CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 2 Bend = 1 Slope = 4
+ KeyHalfStrip = 91 KeyQuartStrip = 182 KeyEighthStrip = 365 KeyWireGroup = 58 Type (SIM) = 1 MPC Link = 0
 CSC LCT #1: Valid = 1 BX = 9 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 1 Bend = 1 Slope = 8
  KeyHalfStrip = 85 KeyQuartStrip = 170 KeyEighthStrip = 341 KeyWireGroup = 51 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 2, 3, 1, 15
@@ -10621,12 +10441,10 @@ Comparatordigi BX 7 Layer 4 halfstrip 37
 Comparatordigi BX 7 Layer 5 halfstrip 35
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 6 Comp Code 3949 Bend = 0
  Slope = 3 CFEB = 2 Strip = 3 KeyHalfStrip = 67 KeyQuartStrip = 135 KeyEighthStrip = 271
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 457 Bend = 1
- Slope = 0 CFEB = 1 Strip = 20 KeyHalfStrip = 52 KeyQuartStrip = 104 KeyEighthStrip = 208
+CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 4 Comp Code 810 Bend = 1
+ Slope = 7 CFEB = 1 Strip = 29 KeyHalfStrip = 61 KeyQuartStrip = 122 KeyEighthStrip = 245
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 457 Bend = 1
  Slope = 0 CFEB = 1 Strip = 20 KeyHalfStrip = 52 KeyQuartStrip = 104 KeyEighthStrip = 208
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 4 Comp Code 239 Bend = 0
- Slope = 6 CFEB = 2 Strip = 21 KeyHalfStrip = 85 KeyQuartStrip = 171 KeyEighthStrip = 342
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 4 Comp Code 239 Bend = 0
  Slope = 6 CFEB = 2 Strip = 21 KeyHalfStrip = 85 KeyQuartStrip = 171 KeyEighthStrip = 342
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 3 Bend = 0 Slope = 6
@@ -10678,12 +10496,10 @@ CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 C
  Slope = 0 CFEB = 0 Strip = 29 KeyHalfStrip = 29 KeyQuartStrip = 59 KeyEighthStrip = 119
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 754 Bend = 1
  Slope = 0 CFEB = 1 Strip = 10 KeyHalfStrip = 42 KeyQuartStrip = 85 KeyEighthStrip = 171
-CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 4 Comp Code 234 Bend = 1
- Slope = 8 CFEB = 0 Strip = 21 KeyHalfStrip = 21 KeyQuartStrip = 42 KeyEighthStrip = 85
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 0
  KeyHalfStrip = 42 KeyQuartStrip = 85 KeyEighthStrip = 171 KeyWireGroup = 67 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 2 Bend = 1 Slope = 8
- KeyHalfStrip = 21 KeyQuartStrip = 42 KeyEighthStrip = 85 KeyWireGroup = 65 Type (SIM) = 1 MPC Link = 0
+CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 2 Bend = 1 Slope = 0
+ KeyHalfStrip = 42 KeyQuartStrip = 85 KeyEighthStrip = 171 KeyWireGroup = 65 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 2, 3, 1, 3
 Comparatordigi BX 6 Layer 0 halfstrip 129
 Comparatordigi BX 6 Layer 3 halfstrip 118
@@ -10759,12 +10575,10 @@ Comparatordigi BX 8 Layer 2 halfstrip 133
 Comparatordigi BX 8 Layer 2 halfstrip 140
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2751 Bend = 0
  Slope = 2 CFEB = 4 Strip = 20 KeyHalfStrip = 148 KeyQuartStrip = 296 KeyEighthStrip = 592
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 4 Comp Code 1807 Bend = 1
- Slope = 3 CFEB = 4 Strip = 28 KeyHalfStrip = 156 KeyQuartStrip = 313 KeyEighthStrip = 626
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 4 Comp Code 3644 Bend = 0
  Slope = 6 CFEB = 4 Strip = 11 KeyHalfStrip = 139 KeyQuartStrip = 278 KeyEighthStrip = 557
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 4 Comp Code 1807 Bend = 1
- Slope = 3 CFEB = 4 Strip = 28 KeyHalfStrip = 156 KeyQuartStrip = 313 KeyEighthStrip = 626
+CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 3040 Bend = 1
+ Slope = 13 CFEB = 4 Strip = 5 KeyHalfStrip = 133 KeyQuartStrip = 266 KeyEighthStrip = 532
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 4 Comp Code 1807 Bend = 1
  Slope = 3 CFEB = 4 Strip = 28 KeyHalfStrip = 156 KeyQuartStrip = 313 KeyEighthStrip = 626
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 3 Bend = 1 Slope = 3
@@ -10923,8 +10737,6 @@ Comparatordigi BX 7 Layer 5 halfstrip 49
 Comparatordigi BX 8 Layer 0 halfstrip 88
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4011 Bend = 1
  Slope = 0 CFEB = 1 Strip = 31 KeyHalfStrip = 63 KeyQuartStrip = 127 KeyEighthStrip = 255
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 5 Comp Code 1023 Bend = 1
- Slope = 14 CFEB = 1 Strip = 19 KeyHalfStrip = 51 KeyQuartStrip = 103 KeyEighthStrip = 206
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 5 Comp Code 1023 Bend = 1
  Slope = 14 CFEB = 1 Strip = 19 KeyHalfStrip = 51 KeyQuartStrip = 103 KeyEighthStrip = 206
 CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 187 Bend = 1
@@ -11003,8 +10815,8 @@ Comparatordigi BX 8 Layer 3 halfstrip 54
 Comparatordigi BX 8 Layer 4 halfstrip 59
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 6 Comp Code 3037 Bend = 1
  Slope = 7 CFEB = 2 Strip = 26 KeyHalfStrip = 90 KeyQuartStrip = 180 KeyEighthStrip = 360
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 6 Comp Code 1950 Bend = 0
- Slope = 6 CFEB = 3 Strip = 18 KeyHalfStrip = 114 KeyQuartStrip = 229 KeyEighthStrip = 459
+CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 5 Comp Code 3944 Bend = 0
+ Slope = 12 CFEB = 3 Strip = 11 KeyHalfStrip = 107 KeyQuartStrip = 214 KeyEighthStrip = 429
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 6 Comp Code 1950 Bend = 0
  Slope = 6 CFEB = 3 Strip = 18 KeyHalfStrip = 114 KeyQuartStrip = 229 KeyEighthStrip = 459
 CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 4 Comp Code 1082 Bend = 0
@@ -11104,10 +10916,10 @@ Comparatordigi BX 7 Layer 2 halfstrip 83
 Comparatordigi BX 7 Layer 3 halfstrip 84
 Comparatordigi BX 7 Layer 4 halfstrip 50
 Comparatordigi BX 7 Layer 5 halfstrip 51
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2395 Bend = 0
- Slope = 1 CFEB = 1 Strip = 18 KeyHalfStrip = 50 KeyQuartStrip = 100 KeyEighthStrip = 200
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2734 Bend = 0
+CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2734 Bend = 0
  Slope = 0 CFEB = 2 Strip = 2 KeyHalfStrip = 66 KeyQuartStrip = 133 KeyEighthStrip = 266
+CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 6 Comp Code 3066 Bend = 0
+ Slope = 13 CFEB = 2 Strip = 17 KeyHalfStrip = 81 KeyQuartStrip = 163 KeyEighthStrip = 327
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2395 Bend = 0
  Slope = 1 CFEB = 1 Strip = 18 KeyHalfStrip = 50 KeyQuartStrip = 100 KeyEighthStrip = 200
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 0 Slope = 1
@@ -11160,9 +10972,7 @@ Comparatordigi BX 8 Layer 4 halfstrip 19
 Comparatordigi BX 8 Layer 5 halfstrip 101
 Comparatordigi BX 9 Layer 0 halfstrip 106
 Comparatordigi BX 9 Layer 4 halfstrip 59
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 1718 Bend = 0
- Slope = 0 CFEB = 3 Strip = 5 KeyHalfStrip = 101 KeyQuartStrip = 202 KeyEighthStrip = 404
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 734 Bend = 1
+CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 734 Bend = 1
  Slope = 0 CFEB = 2 Strip = 10 KeyHalfStrip = 74 KeyQuartStrip = 149 KeyEighthStrip = 298
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 1590 Bend = 0
  Slope = 0 CFEB = 3 Strip = 5 KeyHalfStrip = 101 KeyQuartStrip = 202 KeyEighthStrip = 404
@@ -11331,9 +11141,7 @@ Comparatordigi BX 8 Layer 0 halfstrip 152
 Comparatordigi BX 8 Layer 1 halfstrip 120
 Comparatordigi BX 8 Layer 3 halfstrip 124
 Comparatordigi BX 8 Layer 5 halfstrip 128
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 6 Comp Code 3754 Bend = 1
- Slope = 14 CFEB = 3 Strip = 25 KeyHalfStrip = 121 KeyQuartStrip = 243 KeyEighthStrip = 486
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 2920 Bend = 1
+CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 2920 Bend = 1
  Slope = 0 CFEB = 4 Strip = 15 KeyHalfStrip = 143 KeyQuartStrip = 286 KeyEighthStrip = 573
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 6 Comp Code 3754 Bend = 1
  Slope = 14 CFEB = 3 Strip = 25 KeyHalfStrip = 121 KeyQuartStrip = 243 KeyEighthStrip = 486
@@ -11426,8 +11234,6 @@ Comparatordigi BX 8 Layer 2 halfstrip 135
 Comparatordigi BX 8 Layer 4 halfstrip 124
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 2481 Bend = 1
  Slope = 0 CFEB = 2 Strip = 19 KeyHalfStrip = 83 KeyQuartStrip = 166 KeyEighthStrip = 332
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 1458 Bend = 0
- Slope = 2 CFEB = 2 Strip = 28 KeyHalfStrip = 92 KeyQuartStrip = 184 KeyEighthStrip = 369
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 1458 Bend = 0
  Slope = 2 CFEB = 2 Strip = 28 KeyHalfStrip = 92 KeyQuartStrip = 184 KeyEighthStrip = 369
 CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 5 Comp Code 1483 Bend = 0
@@ -11568,11 +11374,7 @@ Comparatordigi BX 8 Layer 2 halfstrip 22
 Comparatordigi BX 9 Layer 0 halfstrip 84
 CSC CLCT #1: Valid = 1 BX = 4 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2814 Bend = 0
  Slope = 0 CFEB = 1 Strip = 23 KeyHalfStrip = 55 KeyQuartStrip = 111 KeyEighthStrip = 223
-CSC CLCT #2: Valid = 1 BX = 4 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 5 Comp Code 3658 Bend = 0
- Slope = 5 CFEB = 1 Strip = 30 KeyHalfStrip = 62 KeyQuartStrip = 125 KeyEighthStrip = 251
-CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 5 Comp Code 382 Bend = 0
- Slope = 3 CFEB = 1 Strip = 11 KeyHalfStrip = 43 KeyQuartStrip = 86 KeyEighthStrip = 173
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 5 Comp Code 3658 Bend = 0
+CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 5 Comp Code 3658 Bend = 0
  Slope = 5 CFEB = 1 Strip = 30 KeyHalfStrip = 62 KeyQuartStrip = 125 KeyEighthStrip = 251
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 5 Comp Code 382 Bend = 0
  Slope = 3 CFEB = 1 Strip = 11 KeyHalfStrip = 43 KeyQuartStrip = 86 KeyEighthStrip = 173
@@ -11724,8 +11526,6 @@ Comparatordigi BX 8 Layer 4 halfstrip 104
 Comparatordigi BX 8 Layer 5 halfstrip 105
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2798 Bend = 0
  Slope = 0 CFEB = 3 Strip = 17 KeyHalfStrip = 113 KeyQuartStrip = 227 KeyEighthStrip = 455
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 6 Comp Code 2799 Bend = 1
- Slope = 4 CFEB = 3 Strip = 6 KeyHalfStrip = 102 KeyQuartStrip = 205 KeyEighthStrip = 410
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 6 Comp Code 2799 Bend = 1
  Slope = 4 CFEB = 3 Strip = 6 KeyHalfStrip = 102 KeyQuartStrip = 205 KeyEighthStrip = 410
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 3 Bend = 1 Slope = 4
@@ -11826,9 +11626,7 @@ Comparatordigi BX 8 Layer 2 halfstrip 60
 Comparatordigi BX 8 Layer 2 halfstrip 112
 Comparatordigi BX 8 Layer 5 halfstrip 72
 Comparatordigi BX 8 Layer 5 halfstrip 119
-CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 951 Bend = 1
- Slope = 0 CFEB = 2 Strip = 22 KeyHalfStrip = 86 KeyQuartStrip = 173 KeyEighthStrip = 347
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 895 Bend = 0
+CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 895 Bend = 0
  Slope = 1 CFEB = 3 Strip = 0 KeyHalfStrip = 96 KeyQuartStrip = 192 KeyEighthStrip = 384
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 951 Bend = 1
  Slope = 0 CFEB = 2 Strip = 22 KeyHalfStrip = 86 KeyQuartStrip = 173 KeyEighthStrip = 347
@@ -11857,8 +11655,6 @@ Comparatordigi BX 8 Layer 0 halfstrip 127
 Comparatordigi BX 9 Layer 1 halfstrip 125
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 5 Comp Code 2139 Bend = 1
  Slope = 4 CFEB = 3 Strip = 14 KeyHalfStrip = 110 KeyQuartStrip = 221 KeyEighthStrip = 443
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 5 Comp Code 3683 Bend = 0
- Slope = 13 CFEB = 3 Strip = 26 KeyHalfStrip = 122 KeyQuartStrip = 244 KeyEighthStrip = 489
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 6 Comp Code 3691 Bend = 0
  Slope = 13 CFEB = 3 Strip = 26 KeyHalfStrip = 122 KeyQuartStrip = 244 KeyEighthStrip = 489
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 3 Bend = 0 Slope = 13
@@ -11878,14 +11674,10 @@ Comparatordigi BX 8 Layer 4 halfstrip 113
 Comparatordigi BX 9 Layer 4 halfstrip 117
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3754 Bend = 1
  Slope = 1 CFEB = 3 Strip = 16 KeyHalfStrip = 112 KeyQuartStrip = 224 KeyEighthStrip = 449
-CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 4 Comp Code 360 Bend = 0
- Slope = 8 CFEB = 3 Strip = 22 KeyHalfStrip = 118 KeyQuartStrip = 236 KeyEighthStrip = 473
 CSC CLCT #1: Valid = 1 BX = 8 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 4 Comp Code 360 Bend = 0
  Slope = 8 CFEB = 3 Strip = 22 KeyHalfStrip = 118 KeyQuartStrip = 236 KeyEighthStrip = 473
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 1
  KeyHalfStrip = 112 KeyQuartStrip = 224 KeyEighthStrip = 449 KeyWireGroup = 75 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 3 Bend = 0 Slope = 8
- KeyHalfStrip = 118 KeyQuartStrip = 236 KeyEighthStrip = 473 KeyWireGroup = 75 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 2, 3, 1, 16
 Comparatordigi BX 5 Layer 0 halfstrip 48
 Comparatordigi BX 5 Layer 2 halfstrip 48
@@ -11913,8 +11705,6 @@ Comparatordigi BX 8 Layer 0 halfstrip 49
 Comparatordigi BX 8 Layer 2 halfstrip 49
 Comparatordigi BX 8 Layer 3 halfstrip 48
 Comparatordigi BX 8 Layer 4 halfstrip 49
-CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3003 Bend = 0
- Slope = 0 CFEB = 1 Strip = 15 KeyHalfStrip = 47 KeyQuartStrip = 95 KeyEighthStrip = 191
 CSC CLCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3003 Bend = 0
  Slope = 0 CFEB = 1 Strip = 15 KeyHalfStrip = 47 KeyQuartStrip = 95 KeyEighthStrip = 191
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 0 Slope = 0
@@ -12143,14 +11933,12 @@ Comparatordigi BX 7 Layer 3 halfstrip 142
 Comparatordigi BX 7 Layer 5 halfstrip 144
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4015 Bend = 1
  Slope = 0 CFEB = 4 Strip = 4 KeyHalfStrip = 132 KeyQuartStrip = 264 KeyEighthStrip = 528
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 4 Comp Code 2364 Bend = 0
- Slope = 3 CFEB = 4 Strip = 16 KeyHalfStrip = 144 KeyQuartStrip = 288 KeyEighthStrip = 576
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 4 Comp Code 2364 Bend = 0
  Slope = 3 CFEB = 4 Strip = 16 KeyHalfStrip = 144 KeyQuartStrip = 288 KeyEighthStrip = 576
 CSC LCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 0
  KeyHalfStrip = 132 KeyQuartStrip = 264 KeyEighthStrip = 528 KeyWireGroup = 12 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 7 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 3 Bend = 0 Slope = 3
- KeyHalfStrip = 144 KeyQuartStrip = 288 KeyEighthStrip = 576 KeyWireGroup = 10 Type (SIM) = 1 MPC Link = 0
+CSC LCT #2: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 0
+ KeyHalfStrip = 132 KeyQuartStrip = 264 KeyEighthStrip = 528 KeyWireGroup = 10 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 1, 4, 1, 8
 Comparatordigi BX 7 Layer 1 halfstrip 2
 Comparatordigi BX 7 Layer 2 halfstrip 8
@@ -12187,12 +11975,8 @@ Comparatordigi BX 8 Layer 1 halfstrip 102
 Comparatordigi BX 8 Layer 5 halfstrip 116
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3775 Bend = 0
  Slope = 0 CFEB = 4 Strip = 4 KeyHalfStrip = 132 KeyQuartStrip = 264 KeyEighthStrip = 528
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 4 Run-3 Pattern = 2 Quality = 4 Comp Code 380 Bend = 0
- Slope = 11 CFEB = 4 Strip = 17 KeyHalfStrip = 145 KeyQuartStrip = 290 KeyEighthStrip = 580
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 4 Run-3 Pattern = 2 Quality = 4 Comp Code 380 Bend = 0
  Slope = 11 CFEB = 4 Strip = 17 KeyHalfStrip = 145 KeyQuartStrip = 290 KeyEighthStrip = 580
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 569 Bend = 1
- Slope = 15 CFEB = 3 Strip = 24 KeyHalfStrip = 120 KeyQuartStrip = 241 KeyEighthStrip = 482
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 569 Bend = 1
  Slope = 15 CFEB = 3 Strip = 24 KeyHalfStrip = 120 KeyQuartStrip = 241 KeyEighthStrip = 482
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 3 Bend = 1 Slope = 15
@@ -12329,8 +12113,8 @@ Comparatordigi BX 8 Layer 2 halfstrip 104
 Comparatordigi BX 8 Layer 3 halfstrip 86
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4090 Bend = 1
  Slope = 1 CFEB = 2 Strip = 9 KeyHalfStrip = 73 KeyQuartStrip = 147 KeyEighthStrip = 295
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 5 Comp Code 1242 Bend = 1
- Slope = 12 CFEB = 2 Strip = 0 KeyHalfStrip = 64 KeyQuartStrip = 128 KeyEighthStrip = 256
+CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3115 Bend = 1
+ Slope = 0 CFEB = 2 Strip = 18 KeyHalfStrip = 82 KeyQuartStrip = 165 KeyEighthStrip = 331
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 5 Comp Code 1242 Bend = 1
  Slope = 12 CFEB = 2 Strip = 0 KeyHalfStrip = 64 KeyQuartStrip = 128 KeyEighthStrip = 256
 CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 2070 Bend = 1
@@ -12458,8 +12242,6 @@ Comparatordigi BX 8 Layer 3 halfstrip 155
 Comparatordigi BX 8 Layer 4 halfstrip 156
 CSC CLCT #1: Valid = 1 BX = 4 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3070 Bend = 1
  Slope = 0 CFEB = 4 Strip = 5 KeyHalfStrip = 133 KeyQuartStrip = 266 KeyEighthStrip = 532
-CSC CLCT #2: Valid = 1 BX = 4 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 1613 Bend = 0
- Slope = 0 CFEB = 3 Strip = 27 KeyHalfStrip = 123 KeyQuartStrip = 246 KeyEighthStrip = 492
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 1613 Bend = 0
  Slope = 0 CFEB = 3 Strip = 27 KeyHalfStrip = 123 KeyQuartStrip = 246 KeyEighthStrip = 492
 CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 5 Comp Code 2591 Bend = 0
@@ -12502,8 +12284,6 @@ Comparatordigi BX 7 Layer 5 halfstrip 25
 Comparatordigi BX 8 Layer 5 halfstrip 17
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4086 Bend = 1
  Slope = 2 CFEB = 0 Strip = 23 KeyHalfStrip = 23 KeyQuartStrip = 47 KeyEighthStrip = 94
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 4 Comp Code 3912 Bend = 1
- Slope = 8 CFEB = 0 Strip = 12 KeyHalfStrip = 12 KeyQuartStrip = 25 KeyEighthStrip = 51
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 4 Comp Code 3912 Bend = 1
  Slope = 8 CFEB = 0 Strip = 12 KeyHalfStrip = 12 KeyQuartStrip = 25 KeyEighthStrip = 51
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 3 Bend = 1 Slope = 8
@@ -12528,18 +12308,14 @@ Comparatordigi BX 8 Layer 4 halfstrip 23
 Comparatordigi BX 8 Layer 5 halfstrip 39
 Comparatordigi BX 9 Layer 2 halfstrip 39
 Comparatordigi BX 9 Layer 3 halfstrip 39
-CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4095 Bend = 1
- Slope = 0 CFEB = 1 Strip = 6 KeyHalfStrip = 38 KeyQuartStrip = 76 KeyEighthStrip = 153
-CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 3978 Bend = 1
- Slope = 1 CFEB = 0 Strip = 21 KeyHalfStrip = 21 KeyQuartStrip = 43 KeyEighthStrip = 86
+CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 5 Comp Code 2362 Bend = 0
+ Slope = 6 CFEB = 1 Strip = 18 KeyHalfStrip = 50 KeyQuartStrip = 101 KeyEighthStrip = 202
 CSC CLCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4095 Bend = 1
  Slope = 0 CFEB = 1 Strip = 6 KeyHalfStrip = 38 KeyQuartStrip = 76 KeyEighthStrip = 153
 CSC CLCT #2: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 3978 Bend = 1
  Slope = 1 CFEB = 0 Strip = 21 KeyHalfStrip = 21 KeyQuartStrip = 43 KeyEighthStrip = 86
-CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 0
- KeyHalfStrip = 38 KeyQuartStrip = 76 KeyEighthStrip = 153 KeyWireGroup = 9 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 1
- KeyHalfStrip = 21 KeyQuartStrip = 43 KeyEighthStrip = 86 KeyWireGroup = 9 Type (SIM) = 1 MPC Link = 0
+CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 3 Bend = 0 Slope = 6
+ KeyHalfStrip = 50 KeyQuartStrip = 101 KeyEighthStrip = 202 KeyWireGroup = 9 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 1, 4, 1, 11
 Comparatordigi BX 7 Layer 0 halfstrip 39
 Comparatordigi BX 7 Layer 1 halfstrip 39
@@ -12738,8 +12514,8 @@ Comparatordigi BX 8 Layer 5 halfstrip 73
 Comparatordigi BX 9 Layer 1 halfstrip 25
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 6 Comp Code 2815 Bend = 1
  Slope = 4 CFEB = 2 Strip = 0 KeyHalfStrip = 64 KeyQuartStrip = 129 KeyEighthStrip = 259
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 5 Comp Code 3023 Bend = 1
- Slope = 4 CFEB = 1 Strip = 20 KeyHalfStrip = 52 KeyQuartStrip = 105 KeyEighthStrip = 211
+CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 2821 Bend = 1
+ Slope = 15 CFEB = 1 Strip = 23 KeyHalfStrip = 55 KeyQuartStrip = 110 KeyEighthStrip = 220
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 5 Comp Code 3023 Bend = 1
  Slope = 4 CFEB = 1 Strip = 20 KeyHalfStrip = 52 KeyQuartStrip = 105 KeyEighthStrip = 211
 CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 4 Run-3 Pattern = 2 Quality = 5 Comp Code 1131 Bend = 0
@@ -12845,20 +12621,16 @@ Comparatordigi BX 8 Layer 0 halfstrip 84
 Comparatordigi BX 8 Layer 5 halfstrip 15
 CSC CLCT #1: Valid = 1 BX = 4 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2933 Bend = 1
  Slope = 2 CFEB = 1 Strip = 17 KeyHalfStrip = 49 KeyQuartStrip = 98 KeyEighthStrip = 196
-CSC CLCT #2: Valid = 1 BX = 4 Run-2 Pattern = 5 Run-3 Pattern = 3 Quality = 4 Comp Code 977 Bend = 1
- Slope = 10 CFEB = 0 Strip = 30 KeyHalfStrip = 30 KeyQuartStrip = 61 KeyEighthStrip = 123
-CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 3469 Bend = 1
- Slope = 0 CFEB = 2 Strip = 9 KeyHalfStrip = 73 KeyQuartStrip = 146 KeyEighthStrip = 293
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 4 Comp Code 2371 Bend = 1
- Slope = 4 CFEB = 0 Strip = 21 KeyHalfStrip = 21 KeyQuartStrip = 43 KeyEighthStrip = 87
+CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 4 Comp Code 843 Bend = 0
+ Slope = 6 CFEB = 1 Strip = 2 KeyHalfStrip = 34 KeyQuartStrip = 68 KeyEighthStrip = 136
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 3469 Bend = 1
  Slope = 0 CFEB = 2 Strip = 9 KeyHalfStrip = 73 KeyQuartStrip = 146 KeyEighthStrip = 293
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 4 Comp Code 2371 Bend = 1
- Slope = 4 CFEB = 0 Strip = 21 KeyHalfStrip = 21 KeyQuartStrip = 43 KeyEighthStrip = 87
+CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 5 Run-3 Pattern = 3 Quality = 4 Comp Code 977 Bend = 1
+ Slope = 10 CFEB = 0 Strip = 30 KeyHalfStrip = 30 KeyQuartStrip = 61 KeyEighthStrip = 123
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 0
  KeyHalfStrip = 73 KeyQuartStrip = 146 KeyEighthStrip = 293 KeyWireGroup = 36 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 3 Bend = 1 Slope = 4
- KeyHalfStrip = 21 KeyQuartStrip = 43 KeyEighthStrip = 87 KeyWireGroup = 17 Type (SIM) = 1 MPC Link = 0
+CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 5 Run-3 Pattern = 3 Quality = 3 Bend = 1 Slope = 10
+ KeyHalfStrip = 30 KeyQuartStrip = 61 KeyEighthStrip = 123 KeyWireGroup = 17 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 1, 4, 1, 6
 Comparatordigi BX 6 Layer 0 halfstrip 153
 Comparatordigi BX 6 Layer 2 halfstrip 152
@@ -13000,8 +12772,6 @@ Comparatordigi BX 8 Layer 3 halfstrip 73
 Comparatordigi BX 8 Layer 5 halfstrip 69
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4091 Bend = 1
  Slope = 0 CFEB = 1 Strip = 18 KeyHalfStrip = 50 KeyQuartStrip = 100 KeyEighthStrip = 200
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 6 Comp Code 2679 Bend = 1
- Slope = 5 CFEB = 1 Strip = 7 KeyHalfStrip = 39 KeyQuartStrip = 78 KeyEighthStrip = 156
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 6 Comp Code 2679 Bend = 1
  Slope = 5 CFEB = 1 Strip = 7 KeyHalfStrip = 39 KeyQuartStrip = 78 KeyEighthStrip = 156
 CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 4 Comp Code 2296 Bend = 0
@@ -13072,8 +12842,8 @@ Comparatordigi BX 7 Layer 3 halfstrip 59
 Comparatordigi BX 7 Layer 5 halfstrip 63
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4095 Bend = 1
  Slope = 0 CFEB = 1 Strip = 14 KeyHalfStrip = 46 KeyQuartStrip = 92 KeyEighthStrip = 185
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 845 Bend = 1
- Slope = 1 CFEB = 1 Strip = 3 KeyHalfStrip = 35 KeyQuartStrip = 70 KeyEighthStrip = 141
+CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 4 Comp Code 810 Bend = 0
+ Slope = 3 CFEB = 1 Strip = 23 KeyHalfStrip = 55 KeyQuartStrip = 110 KeyEighthStrip = 220
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 845 Bend = 1
  Slope = 1 CFEB = 1 Strip = 3 KeyHalfStrip = 35 KeyQuartStrip = 70 KeyEighthStrip = 141
 CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 4 Comp Code 283 Bend = 0
@@ -13228,8 +12998,6 @@ Comparatordigi BX 7 Layer 5 halfstrip 147
 Comparatordigi BX 8 Layer 1 halfstrip 132
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 1707 Bend = 0
  Slope = 2 CFEB = 4 Strip = 26 KeyHalfStrip = 154 KeyQuartStrip = 309 KeyEighthStrip = 618
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 1000 Bend = 1
- Slope = 15 CFEB = 4 Strip = 10 KeyHalfStrip = 138 KeyQuartStrip = 277 KeyEighthStrip = 554
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 1000 Bend = 1
  Slope = 15 CFEB = 4 Strip = 10 KeyHalfStrip = 138 KeyQuartStrip = 277 KeyEighthStrip = 554
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 3 Bend = 1 Slope = 15
@@ -13596,8 +13364,6 @@ Comparatordigi BX 7 Layer 0 halfstrip 6
 Comparatordigi BX 8 Layer 0 halfstrip 34
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 6 Comp Code 1765 Bend = 1
  Slope = 6 CFEB = 0 Strip = 15 KeyHalfStrip = 15 KeyQuartStrip = 31 KeyEighthStrip = 62
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 4 Comp Code 850 Bend = 0
- Slope = 12 CFEB = 0 Strip = 9 KeyHalfStrip = 9 KeyQuartStrip = 19 KeyEighthStrip = 39
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 4 Comp Code 850 Bend = 0
  Slope = 12 CFEB = 0 Strip = 9 KeyHalfStrip = 9 KeyQuartStrip = 19 KeyEighthStrip = 39
 CSC LCT #1: Valid = 1 BX = 7 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 3 Bend = 0 Slope = 12
@@ -13629,8 +13395,8 @@ Comparatordigi BX 7 Layer 5 halfstrip 143
 Comparatordigi BX 7 Layer 5 halfstrip 146
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 4 Quality = 5 Comp Code 1013 Bend = 1
  Slope = 4 CFEB = 4 Strip = 24 KeyHalfStrip = 152 KeyQuartStrip = 305 KeyEighthStrip = 610
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3617 Bend = 1
- Slope = 2 CFEB = 4 Strip = 13 KeyHalfStrip = 141 KeyQuartStrip = 282 KeyEighthStrip = 564
+CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 4 Comp Code 3858 Bend = 1
+ Slope = 8 CFEB = 4 Strip = 14 KeyHalfStrip = 142 KeyQuartStrip = 284 KeyEighthStrip = 568
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3617 Bend = 1
  Slope = 2 CFEB = 4 Strip = 13 KeyHalfStrip = 141 KeyQuartStrip = 282 KeyEighthStrip = 564
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 2
@@ -13685,12 +13451,8 @@ Comparatordigi BX 9 Layer 4 halfstrip 158
 Comparatordigi BX 9 Layer 5 halfstrip 147
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 6 Comp Code 2794 Bend = 1
  Slope = 6 CFEB = 4 Strip = 22 KeyHalfStrip = 150 KeyQuartStrip = 300 KeyEighthStrip = 600
-CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 4080 Bend = 0
- Slope = 0 CFEB = 4 Strip = 29 KeyHalfStrip = 157 KeyQuartStrip = 314 KeyEighthStrip = 629
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 3 Bend = 1 Slope = 6
  KeyHalfStrip = 150 KeyQuartStrip = 300 KeyEighthStrip = 600 KeyWireGroup = 19 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 0 Slope = 0
- KeyHalfStrip = 157 KeyQuartStrip = 314 KeyEighthStrip = 629 KeyWireGroup = 19 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 2, 3, 1, 12
 Comparatordigi BX 6 Layer 5 halfstrip 143
 Comparatordigi BX 8 Layer 1 halfstrip 143
@@ -13968,8 +13730,6 @@ Comparatordigi BX 8 Layer 2 halfstrip 7
 Comparatordigi BX 9 Layer 0 halfstrip 15
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 6 Comp Code 2022 Bend = 0
  Slope = 13 CFEB = 0 Strip = 16 KeyHalfStrip = 16 KeyQuartStrip = 32 KeyEighthStrip = 65
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 947 Bend = 0
- Slope = 0 CFEB = 0 Strip = 6 KeyHalfStrip = 6 KeyQuartStrip = 12 KeyEighthStrip = 24
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 947 Bend = 0
  Slope = 0 CFEB = 0 Strip = 6 KeyHalfStrip = 6 KeyQuartStrip = 12 KeyEighthStrip = 24
 CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 4 Comp Code 3714 Bend = 0
@@ -14135,10 +13895,6 @@ Comparatordigi BX 7 Layer 5 halfstrip 36
 Comparatordigi BX 8 Layer 1 halfstrip 48
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3818 Bend = 1
  Slope = 1 CFEB = 0 Strip = 25 KeyHalfStrip = 25 KeyQuartStrip = 51 KeyEighthStrip = 102
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 2825 Bend = 1
- Slope = 1 CFEB = 0 Strip = 16 KeyHalfStrip = 16 KeyQuartStrip = 32 KeyEighthStrip = 64
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 2825 Bend = 1
- Slope = 1 CFEB = 0 Strip = 16 KeyHalfStrip = 16 KeyQuartStrip = 32 KeyEighthStrip = 64
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 2825 Bend = 1
  Slope = 1 CFEB = 0 Strip = 16 KeyHalfStrip = 16 KeyQuartStrip = 32 KeyEighthStrip = 64
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 1
@@ -14246,20 +14002,20 @@ Comparatordigi BX 8 Layer 3 halfstrip 90
 Comparatordigi BX 8 Layer 5 halfstrip 61
 Comparatordigi BX 9 Layer 3 halfstrip 67
 Comparatordigi BX 9 Layer 3 halfstrip 73
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3062 Bend = 1
- Slope = 1 CFEB = 3 Strip = 11 KeyHalfStrip = 107 KeyQuartStrip = 215 KeyEighthStrip = 430
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 6 Comp Code 2715 Bend = 1
+CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 6 Comp Code 2715 Bend = 1
  Slope = 5 CFEB = 2 Strip = 22 KeyHalfStrip = 86 KeyQuartStrip = 172 KeyEighthStrip = 344
+CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 6 Comp Code 2810 Bend = 0
+ Slope = 5 CFEB = 3 Strip = 0 KeyHalfStrip = 96 KeyQuartStrip = 192 KeyEighthStrip = 384
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3062 Bend = 1
  Slope = 1 CFEB = 3 Strip = 11 KeyHalfStrip = 107 KeyQuartStrip = 215 KeyEighthStrip = 430
-CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 3692 Bend = 1
- Slope = 0 CFEB = 1 Strip = 27 KeyHalfStrip = 59 KeyQuartStrip = 119 KeyEighthStrip = 238
+CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 9 Run-3 Pattern = 4 Quality = 4 Comp Code 4033 Bend = 1
+ Slope = 3 CFEB = 3 Strip = 5 KeyHalfStrip = 101 KeyQuartStrip = 202 KeyEighthStrip = 405
 CSC CLCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3180 Bend = 1
  Slope = 0 CFEB = 1 Strip = 27 KeyHalfStrip = 59 KeyQuartStrip = 119 KeyEighthStrip = 238
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 1
  KeyHalfStrip = 107 KeyQuartStrip = 215 KeyEighthStrip = 430 KeyWireGroup = 22 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 0
- KeyHalfStrip = 59 KeyQuartStrip = 119 KeyEighthStrip = 238 KeyWireGroup = 13 Type (SIM) = 1 MPC Link = 0
+CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 9 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 3
+ KeyHalfStrip = 101 KeyQuartStrip = 202 KeyEighthStrip = 405 KeyWireGroup = 13 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 2, 4, 1, 10
 Comparatordigi BX 7 Layer 3 halfstrip 91
 Comparatordigi BX 8 Layer 0 halfstrip 92
@@ -14360,8 +14116,6 @@ Comparatordigi BX 7 Layer 1 halfstrip 143
 Comparatordigi BX 7 Layer 2 halfstrip 146
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 6 Comp Code 1774 Bend = 1
  Slope = 4 CFEB = 4 Strip = 28 KeyHalfStrip = 156 KeyQuartStrip = 312 KeyEighthStrip = 625
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 5 Run-3 Pattern = 1 Quality = 5 Comp Code 363 Bend = 1
- Slope = 10 CFEB = 4 Strip = 21 KeyHalfStrip = 149 KeyQuartStrip = 298 KeyEighthStrip = 597
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 5 Run-3 Pattern = 1 Quality = 5 Comp Code 363 Bend = 1
  Slope = 10 CFEB = 4 Strip = 21 KeyHalfStrip = 149 KeyQuartStrip = 298 KeyEighthStrip = 597
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 5 Run-3 Pattern = 1 Quality = 3 Bend = 1 Slope = 10
@@ -14399,12 +14153,10 @@ Comparatordigi BX 7 Layer 5 halfstrip 26
 Comparatordigi BX 8 Layer 4 halfstrip 26
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 2279 Bend = 0
  Slope = 0 CFEB = 0 Strip = 9 KeyHalfStrip = 9 KeyQuartStrip = 19 KeyEighthStrip = 38
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 1133 Bend = 0
- Slope = 1 CFEB = 0 Strip = 21 KeyHalfStrip = 21 KeyQuartStrip = 43 KeyEighthStrip = 87
+CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 2209 Bend = 1
+ Slope = 1 CFEB = 0 Strip = 14 KeyHalfStrip = 14 KeyQuartStrip = 29 KeyEighthStrip = 59
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 1133 Bend = 0
  Slope = 1 CFEB = 0 Strip = 21 KeyHalfStrip = 21 KeyQuartStrip = 43 KeyEighthStrip = 87
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 3855 Bend = 1
- Slope = 13 CFEB = 0 Strip = 29 KeyHalfStrip = 29 KeyQuartStrip = 59 KeyEighthStrip = 118
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 3855 Bend = 1
  Slope = 13 CFEB = 0 Strip = 29 KeyHalfStrip = 29 KeyQuartStrip = 59 KeyEighthStrip = 118
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 3 Bend = 1 Slope = 13
@@ -14570,11 +14322,9 @@ Comparatordigi BX 8 Layer 5 halfstrip 54
 Comparatordigi BX 8 Layer 5 halfstrip 82
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 3772 Bend = 0
  Slope = 0 CFEB = 2 Strip = 3 KeyHalfStrip = 67 KeyQuartStrip = 134 KeyEighthStrip = 268
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 5 Comp Code 491 Bend = 1
- Slope = 12 CFEB = 1 Strip = 17 KeyHalfStrip = 49 KeyQuartStrip = 99 KeyEighthStrip = 198
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 5 Run-3 Pattern = 1 Quality = 6 Comp Code 1515 Bend = 1
- Slope = 10 CFEB = 1 Strip = 17 KeyHalfStrip = 49 KeyQuartStrip = 99 KeyEighthStrip = 198
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 5 Comp Code 3410 Bend = 1
+CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 4 Comp Code 3127 Bend = 0
+ Slope = 5 CFEB = 1 Strip = 29 KeyHalfStrip = 61 KeyQuartStrip = 122 KeyEighthStrip = 244
+CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 5 Comp Code 3410 Bend = 1
  Slope = 6 CFEB = 1 Strip = 23 KeyHalfStrip = 55 KeyQuartStrip = 110 KeyEighthStrip = 221
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 5 Run-3 Pattern = 1 Quality = 5 Comp Code 1259 Bend = 1
  Slope = 11 CFEB = 1 Strip = 17 KeyHalfStrip = 49 KeyQuartStrip = 99 KeyEighthStrip = 198
@@ -14716,14 +14466,10 @@ Comparatordigi BX 8 Layer 5 halfstrip 81
 Comparatordigi BX 8 Layer 5 halfstrip 86
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4095 Bend = 1
  Slope = 0 CFEB = 2 Strip = 4 KeyHalfStrip = 68 KeyQuartStrip = 136 KeyEighthStrip = 273
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 4 Quality = 4 Comp Code 4000 Bend = 1
- Slope = 3 CFEB = 2 Strip = 15 KeyHalfStrip = 79 KeyQuartStrip = 158 KeyEighthStrip = 317
 CSC CLCT #1: Valid = 1 BX = 8 Run-2 Pattern = 9 Run-3 Pattern = 4 Quality = 4 Comp Code 4000 Bend = 1
  Slope = 3 CFEB = 2 Strip = 15 KeyHalfStrip = 79 KeyQuartStrip = 158 KeyEighthStrip = 317
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 0
  KeyHalfStrip = 68 KeyQuartStrip = 136 KeyEighthStrip = 273 KeyWireGroup = 21 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 9 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 3
- KeyHalfStrip = 79 KeyQuartStrip = 158 KeyEighthStrip = 317 KeyWireGroup = 21 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 2, 3, 1, 11
 Comparatordigi BX 5 Layer 4 halfstrip 91
 Comparatordigi BX 6 Layer 1 halfstrip 92
@@ -14900,8 +14646,6 @@ Comparatordigi BX 8 Layer 1 halfstrip 55
 Comparatordigi BX 8 Layer 5 halfstrip 54
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 6 Comp Code 1455 Bend = 0
  Slope = 3 CFEB = 0 Strip = 12 KeyHalfStrip = 12 KeyQuartStrip = 25 KeyEighthStrip = 50
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 1834 Bend = 0
- Slope = 0 CFEB = 1 Strip = 22 KeyHalfStrip = 54 KeyQuartStrip = 108 KeyEighthStrip = 217
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 1834 Bend = 0
  Slope = 0 CFEB = 1 Strip = 22 KeyHalfStrip = 54 KeyQuartStrip = 108 KeyEighthStrip = 217
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 0 Slope = 0
@@ -15006,8 +14750,6 @@ Comparatordigi BX 7 Layer 5 halfstrip 107
 Comparatordigi BX 9 Layer 3 halfstrip 67
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 2758 Bend = 1
  Slope = 0 CFEB = 2 Strip = 17 KeyHalfStrip = 81 KeyQuartStrip = 162 KeyEighthStrip = 325
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 5 Comp Code 1644 Bend = 0
- Slope = 15 CFEB = 1 Strip = 22 KeyHalfStrip = 54 KeyQuartStrip = 109 KeyEighthStrip = 218
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 5 Comp Code 1644 Bend = 0
  Slope = 15 CFEB = 1 Strip = 22 KeyHalfStrip = 54 KeyQuartStrip = 109 KeyEighthStrip = 218
 CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 4 Comp Code 876 Bend = 0
@@ -15051,8 +14793,6 @@ Comparatordigi BX 8 Layer 4 halfstrip 139
 Comparatordigi BX 8 Layer 4 halfstrip 147
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 6 Comp Code 1535 Bend = 0
  Slope = 3 CFEB = 4 Strip = 16 KeyHalfStrip = 144 KeyQuartStrip = 289 KeyEighthStrip = 579
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 697 Bend = 1
- Slope = 1 CFEB = 4 Strip = 10 KeyHalfStrip = 138 KeyQuartStrip = 276 KeyEighthStrip = 553
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 697 Bend = 1
  Slope = 1 CFEB = 4 Strip = 10 KeyHalfStrip = 138 KeyQuartStrip = 276 KeyEighthStrip = 553
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 1
@@ -15182,8 +14922,8 @@ Comparatordigi BX 8 Layer 1 halfstrip 20
 Comparatordigi BX 9 Layer 5 halfstrip 83
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 3647 Bend = 0
  Slope = 0 CFEB = 1 Strip = 10 KeyHalfStrip = 42 KeyQuartStrip = 84 KeyEighthStrip = 169
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 5 Comp Code 1900 Bend = 1
- Slope = 3 CFEB = 1 Strip = 23 KeyHalfStrip = 55 KeyQuartStrip = 110 KeyEighthStrip = 221
+CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 5 Run-3 Pattern = 1 Quality = 4 Comp Code 103 Bend = 1
+ Slope = 9 CFEB = 1 Strip = 0 KeyHalfStrip = 32 KeyQuartStrip = 65 KeyEighthStrip = 131
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 5 Comp Code 1900 Bend = 1
  Slope = 3 CFEB = 1 Strip = 23 KeyHalfStrip = 55 KeyQuartStrip = 110 KeyEighthStrip = 221
 CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 907 Bend = 1
@@ -15219,7 +14959,7 @@ Comparatordigi BX 8 Layer 2 halfstrip 138
 Comparatordigi BX 8 Layer 3 halfstrip 129
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 3903 Bend = 0
  Slope = 0 CFEB = 4 Strip = 9 KeyHalfStrip = 137 KeyQuartStrip = 274 KeyEighthStrip = 549
-CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 4 Comp Code 700 Bend = 0
+CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 4 Comp Code 360 Bend = 0
  Slope = 8 CFEB = 4 Strip = 1 KeyHalfStrip = 129 KeyQuartStrip = 258 KeyEighthStrip = 517
 CSC CLCT #1: Valid = 1 BX = 8 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 4 Comp Code 700 Bend = 0
  Slope = 8 CFEB = 4 Strip = 1 KeyHalfStrip = 129 KeyQuartStrip = 258 KeyEighthStrip = 517
@@ -15301,20 +15041,20 @@ Comparatordigi BX 8 Layer 2 halfstrip 137
 Comparatordigi BX 8 Layer 3 halfstrip 64
 Comparatordigi BX 8 Layer 3 halfstrip 89
 Comparatordigi BX 8 Layer 4 halfstrip 106
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 5 Comp Code 4082 Bend = 1
- Slope = 14 CFEB = 1 Strip = 23 KeyHalfStrip = 55 KeyQuartStrip = 110 KeyEighthStrip = 221
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 4 Comp Code 1203 Bend = 0
+CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 4 Comp Code 1203 Bend = 0
  Slope = 3 CFEB = 2 Strip = 14 KeyHalfStrip = 78 KeyQuartStrip = 157 KeyEighthStrip = 315
+CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 3972 Bend = 1
+ Slope = 15 CFEB = 2 Strip = 31 KeyHalfStrip = 95 KeyQuartStrip = 191 KeyEighthStrip = 383
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 5 Comp Code 4082 Bend = 1
  Slope = 14 CFEB = 1 Strip = 23 KeyHalfStrip = 55 KeyQuartStrip = 110 KeyEighthStrip = 221
 CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 4 Comp Code 444 Bend = 0
- Slope = 15 CFEB = 3 Strip = 15 KeyHalfStrip = 111 KeyQuartStrip = 222 KeyEighthStrip = 444
+ Slope = 15 CFEB = 4 Strip = 8 KeyHalfStrip = 136 KeyQuartStrip = 272 KeyEighthStrip = 544
 CSC CLCT #1: Valid = 1 BX = 8 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 4 Comp Code 444 Bend = 0
  Slope = 15 CFEB = 3 Strip = 15 KeyHalfStrip = 111 KeyQuartStrip = 222 KeyEighthStrip = 444
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 3 Bend = 1 Slope = 14
  KeyHalfStrip = 55 KeyQuartStrip = 110 KeyEighthStrip = 221 KeyWireGroup = 53 Type (SIM) = 1 MPC Link = 0
 CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 3 Bend = 0 Slope = 15
- KeyHalfStrip = 111 KeyQuartStrip = 222 KeyEighthStrip = 444 KeyWireGroup = 47 Type (SIM) = 1 MPC Link = 0
+ KeyHalfStrip = 136 KeyQuartStrip = 272 KeyEighthStrip = 544 KeyWireGroup = 47 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 1, 4, 1, 12
 Comparatordigi BX 6 Layer 2 halfstrip 96
 Comparatordigi BX 6 Layer 3 halfstrip 78
@@ -15570,8 +15310,8 @@ Comparatordigi BX 8 Layer 4 halfstrip 134
 Comparatordigi BX 9 Layer 1 halfstrip 137
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 4 Quality = 6 Comp Code 4005 Bend = 1
  Slope = 3 CFEB = 3 Strip = 22 KeyHalfStrip = 118 KeyQuartStrip = 236 KeyEighthStrip = 472
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 4 Quality = 5 Comp Code 3748 Bend = 1
- Slope = 3 CFEB = 3 Strip = 5 KeyHalfStrip = 101 KeyQuartStrip = 203 KeyEighthStrip = 407
+CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 4 Comp Code 3394 Bend = 1
+ Slope = 6 CFEB = 3 Strip = 12 KeyHalfStrip = 108 KeyQuartStrip = 216 KeyEighthStrip = 433
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 9 Run-3 Pattern = 4 Quality = 5 Comp Code 3748 Bend = 1
  Slope = 3 CFEB = 3 Strip = 5 KeyHalfStrip = 101 KeyQuartStrip = 203 KeyEighthStrip = 407
 CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 1937 Bend = 1
@@ -15645,8 +15385,8 @@ Comparatordigi BX 7 Layer 3 halfstrip 77
 Comparatordigi BX 7 Layer 4 halfstrip 32
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3737 Bend = 1
  Slope = 2 CFEB = 1 Strip = 6 KeyHalfStrip = 38 KeyQuartStrip = 76 KeyEighthStrip = 152
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 4 Run-3 Pattern = 0 Quality = 6 Comp Code 4013 Bend = 0
- Slope = 11 CFEB = 1 Strip = 17 KeyHalfStrip = 49 KeyQuartStrip = 98 KeyEighthStrip = 197
+CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 3790 Bend = 1
+ Slope = 0 CFEB = 0 Strip = 31 KeyHalfStrip = 31 KeyQuartStrip = 63 KeyEighthStrip = 127
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 4 Run-3 Pattern = 0 Quality = 6 Comp Code 4013 Bend = 0
  Slope = 11 CFEB = 1 Strip = 17 KeyHalfStrip = 49 KeyQuartStrip = 98 KeyEighthStrip = 197
 CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 4 Comp Code 3850 Bend = 1
@@ -15782,14 +15522,12 @@ Comparatordigi BX 8 Layer 5 halfstrip 32
 Comparatordigi BX 9 Layer 2 halfstrip 47
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4095 Bend = 1
  Slope = 0 CFEB = 1 Strip = 6 KeyHalfStrip = 38 KeyQuartStrip = 76 KeyEighthStrip = 153
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 6 Comp Code 3503 Bend = 1
- Slope = 4 CFEB = 0 Strip = 28 KeyHalfStrip = 28 KeyQuartStrip = 56 KeyEighthStrip = 113
 CSC CLCT #1: Valid = 1 BX = 8 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 6 Comp Code 3503 Bend = 1
  Slope = 4 CFEB = 0 Strip = 28 KeyHalfStrip = 28 KeyQuartStrip = 56 KeyEighthStrip = 113
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 0
  KeyHalfStrip = 38 KeyQuartStrip = 76 KeyEighthStrip = 153 KeyWireGroup = 10 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 3 Bend = 1 Slope = 4
- KeyHalfStrip = 28 KeyQuartStrip = 56 KeyEighthStrip = 113 KeyWireGroup = 6 Type (SIM) = 1 MPC Link = 0
+CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 0
+ KeyHalfStrip = 38 KeyQuartStrip = 76 KeyEighthStrip = 153 KeyWireGroup = 6 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 1, 4, 1, 12
 Comparatordigi BX 5 Layer 0 halfstrip 39
 Comparatordigi BX 5 Layer 1 halfstrip 40
@@ -15844,12 +15582,8 @@ Comparatordigi BX 8 Layer 0 halfstrip 47
 Comparatordigi BX 8 Layer 5 halfstrip 107
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3003 Bend = 0
  Slope = 0 CFEB = 3 Strip = 24 KeyHalfStrip = 120 KeyQuartStrip = 241 KeyEighthStrip = 483
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 3529 Bend = 1
- Slope = 1 CFEB = 3 Strip = 14 KeyHalfStrip = 110 KeyQuartStrip = 220 KeyEighthStrip = 440
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 3529 Bend = 1
  Slope = 1 CFEB = 3 Strip = 14 KeyHalfStrip = 110 KeyQuartStrip = 220 KeyEighthStrip = 440
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 3664 Bend = 1
- Slope = 15 CFEB = 3 Strip = 3 KeyHalfStrip = 99 KeyQuartStrip = 198 KeyEighthStrip = 397
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 3664 Bend = 1
  Slope = 15 CFEB = 3 Strip = 3 KeyHalfStrip = 99 KeyQuartStrip = 198 KeyEighthStrip = 397
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 3 Bend = 1 Slope = 15
@@ -16225,16 +15959,12 @@ Comparatordigi BX 8 Layer 3 halfstrip 106
 Comparatordigi BX 8 Layer 4 halfstrip 96
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 6 Comp Code 3967 Bend = 0
  Slope = 6 CFEB = 3 Strip = 4 KeyHalfStrip = 100 KeyQuartStrip = 201 KeyEighthStrip = 402
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 4 Comp Code 106 Bend = 0
- Slope = 8 CFEB = 3 Strip = 10 KeyHalfStrip = 106 KeyQuartStrip = 212 KeyEighthStrip = 425
 CSC LCT #1: Valid = 1 BX = 7 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 3 Bend = 0 Slope = 6
  KeyHalfStrip = 100 KeyQuartStrip = 201 KeyEighthStrip = 402 KeyWireGroup = 24 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 7 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 3 Bend = 0 Slope = 8
- KeyHalfStrip = 106 KeyQuartStrip = 212 KeyEighthStrip = 425 KeyWireGroup = 24 Type (SIM) = 1 MPC Link = 0
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 3 Bend = 0 Slope = 6
  KeyHalfStrip = 100 KeyQuartStrip = 201 KeyEighthStrip = 402 KeyWireGroup = 20 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 1 Bend = 0 Slope = 8
- KeyHalfStrip = 106 KeyQuartStrip = 212 KeyEighthStrip = 425 KeyWireGroup = 16 Type (SIM) = 1 MPC Link = 0
+CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 3 Bend = 0 Slope = 6
+ KeyHalfStrip = 100 KeyQuartStrip = 201 KeyEighthStrip = 402 KeyWireGroup = 16 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 2, 4, 1, 1
 Comparatordigi BX 7 Layer 0 halfstrip 99
 Comparatordigi BX 7 Layer 1 halfstrip 99
@@ -16263,8 +15993,6 @@ Comparatordigi BX 8 Layer 1 halfstrip 22
 Comparatordigi BX 8 Layer 2 halfstrip 13
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 5 Comp Code 1944 Bend = 1
  Slope = 5 CFEB = 0 Strip = 21 KeyHalfStrip = 21 KeyQuartStrip = 43 KeyEighthStrip = 87
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 4000 Bend = 1
- Slope = 15 CFEB = 0 Strip = 12 KeyHalfStrip = 12 KeyQuartStrip = 24 KeyEighthStrip = 49
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 4000 Bend = 1
  Slope = 15 CFEB = 0 Strip = 12 KeyHalfStrip = 12 KeyQuartStrip = 24 KeyEighthStrip = 49
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 1 Bend = 1 Slope = 15
@@ -16367,8 +16095,8 @@ Comparatordigi BX 7 Layer 5 halfstrip 78
 Comparatordigi BX 7 Layer 5 halfstrip 87
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3578 Bend = 1
  Slope = 0 CFEB = 2 Strip = 8 KeyHalfStrip = 72 KeyQuartStrip = 145 KeyEighthStrip = 290
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 5 Comp Code 3747 Bend = 1
- Slope = 5 CFEB = 1 Strip = 22 KeyHalfStrip = 54 KeyQuartStrip = 108 KeyEighthStrip = 217
+CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 4 Comp Code 1868 Bend = 0
+ Slope = 8 CFEB = 1 Strip = 29 KeyHalfStrip = 61 KeyQuartStrip = 122 KeyEighthStrip = 245
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 5 Comp Code 3747 Bend = 1
  Slope = 5 CFEB = 1 Strip = 22 KeyHalfStrip = 54 KeyQuartStrip = 108 KeyEighthStrip = 217
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 3 Bend = 1 Slope = 5
@@ -16454,12 +16182,8 @@ Comparatordigi BX 8 Layer 0 halfstrip 95
 Comparatordigi BX 8 Layer 1 halfstrip 94
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2815 Bend = 0
  Slope = 1 CFEB = 2 Strip = 21 KeyHalfStrip = 85 KeyQuartStrip = 170 KeyEighthStrip = 340
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 4 Comp Code 222 Bend = 0
- Slope = 4 CFEB = 2 Strip = 12 KeyHalfStrip = 76 KeyQuartStrip = 152 KeyEighthStrip = 304
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 4 Comp Code 222 Bend = 0
  Slope = 4 CFEB = 2 Strip = 12 KeyHalfStrip = 76 KeyQuartStrip = 152 KeyEighthStrip = 304
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 4 Comp Code 436 Bend = 0
- Slope = 15 CFEB = 3 Strip = 1 KeyHalfStrip = 97 KeyQuartStrip = 194 KeyEighthStrip = 388
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 4 Comp Code 436 Bend = 0
  Slope = 15 CFEB = 3 Strip = 1 KeyHalfStrip = 97 KeyQuartStrip = 194 KeyEighthStrip = 388
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 3 Bend = 0 Slope = 15
@@ -16604,16 +16328,14 @@ Comparatordigi BX 8 Layer 4 halfstrip 31
 Comparatordigi BX 8 Layer 5 halfstrip 144
 CSC CLCT #1: Valid = 1 BX = 4 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 3487 Bend = 0
  Slope = 1 CFEB = 2 Strip = 19 KeyHalfStrip = 83 KeyQuartStrip = 167 KeyEighthStrip = 334
-CSC CLCT #2: Valid = 1 BX = 4 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 559 Bend = 0
+CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 559 Bend = 0
  Slope = 2 CFEB = 1 Strip = 19 KeyHalfStrip = 51 KeyQuartStrip = 103 KeyEighthStrip = 207
-CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 3036 Bend = 0
- Slope = 0 CFEB = 4 Strip = 0 KeyHalfStrip = 128 KeyQuartStrip = 257 KeyEighthStrip = 515
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3522 Bend = 1
- Slope = 0 CFEB = 1 Strip = 5 KeyHalfStrip = 37 KeyQuartStrip = 75 KeyEighthStrip = 150
+CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 1585 Bend = 0
+ Slope = 0 CFEB = 3 Strip = 10 KeyHalfStrip = 106 KeyQuartStrip = 212 KeyEighthStrip = 424
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 3036 Bend = 0
  Slope = 0 CFEB = 4 Strip = 0 KeyHalfStrip = 128 KeyQuartStrip = 257 KeyEighthStrip = 515
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3522 Bend = 1
- Slope = 0 CFEB = 1 Strip = 5 KeyHalfStrip = 37 KeyQuartStrip = 75 KeyEighthStrip = 150
+CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 4 Comp Code 542 Bend = 1
+ Slope = 5 CFEB = 4 Strip = 8 KeyHalfStrip = 136 KeyQuartStrip = 272 KeyEighthStrip = 544
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3522 Bend = 1
  Slope = 0 CFEB = 1 Strip = 5 KeyHalfStrip = 37 KeyQuartStrip = 75 KeyEighthStrip = 150
 CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 3854 Bend = 1
@@ -16877,8 +16599,8 @@ CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 6 Co
  Slope = 5 CFEB = 1 Strip = 2 KeyHalfStrip = 34 KeyQuartStrip = 68 KeyEighthStrip = 136
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 5 Comp Code 2950 Bend = 1
  Slope = 7 CFEB = 1 Strip = 17 KeyHalfStrip = 49 KeyQuartStrip = 99 KeyEighthStrip = 199
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 4 Comp Code 3095 Bend = 0
- Slope = 5 CFEB = 0 Strip = 10 KeyHalfStrip = 10 KeyQuartStrip = 21 KeyEighthStrip = 42
+CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 5 Run-3 Pattern = 1 Quality = 4 Comp Code 2275 Bend = 1
+ Slope = 11 CFEB = 0 Strip = 16 KeyHalfStrip = 16 KeyQuartStrip = 32 KeyEighthStrip = 64
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 8 Run-3 Pattern = 2 Quality = 4 Comp Code 3095 Bend = 0
  Slope = 5 CFEB = 0 Strip = 10 KeyHalfStrip = 10 KeyQuartStrip = 21 KeyEighthStrip = 42
 CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 4 Comp Code 2627 Bend = 0
@@ -16936,20 +16658,14 @@ Comparatordigi BX 8 Layer 1 halfstrip 29
 Comparatordigi BX 8 Layer 2 halfstrip 11
 Comparatordigi BX 8 Layer 4 halfstrip 28
 Comparatordigi BX 8 Layer 4 halfstrip 40
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 6 Comp Code 1882 Bend = 0
- Slope = 6 CFEB = 1 Strip = 7 KeyHalfStrip = 39 KeyQuartStrip = 78 KeyEighthStrip = 157
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 991 Bend = 1
+CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 991 Bend = 1
  Slope = 0 CFEB = 0 Strip = 19 KeyHalfStrip = 19 KeyQuartStrip = 38 KeyEighthStrip = 76
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 6 Comp Code 1882 Bend = 0
  Slope = 6 CFEB = 1 Strip = 7 KeyHalfStrip = 39 KeyQuartStrip = 78 KeyEighthStrip = 157
-CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 4 Comp Code 299 Bend = 0
- Slope = 3 CFEB = 0 Strip = 28 KeyHalfStrip = 28 KeyQuartStrip = 56 KeyEighthStrip = 112
 CSC CLCT #1: Valid = 1 BX = 8 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 4 Comp Code 235 Bend = 0
  Slope = 13 CFEB = 0 Strip = 10 KeyHalfStrip = 10 KeyQuartStrip = 21 KeyEighthStrip = 43
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 3 Bend = 0 Slope = 6
  KeyHalfStrip = 39 KeyQuartStrip = 78 KeyEighthStrip = 157 KeyWireGroup = 5 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 3 Bend = 0 Slope = 3
- KeyHalfStrip = 28 KeyQuartStrip = 56 KeyEighthStrip = 112 KeyWireGroup = 5 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 2, 4, 1, 7
 Comparatordigi BX 6 Layer 0 halfstrip 54
 Comparatordigi BX 6 Layer 0 halfstrip 158
@@ -16989,8 +16705,6 @@ Comparatordigi BX 7 Layer 5 halfstrip 36
 Comparatordigi BX 8 Layer 3 halfstrip 48
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4095 Bend = 1
  Slope = 0 CFEB = 0 Strip = 20 KeyHalfStrip = 20 KeyQuartStrip = 40 KeyEighthStrip = 81
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 183 Bend = 0
- Slope = 0 CFEB = 0 Strip = 3 KeyHalfStrip = 3 KeyQuartStrip = 7 KeyEighthStrip = 14
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 183 Bend = 0
  Slope = 0 CFEB = 0 Strip = 3 KeyHalfStrip = 3 KeyQuartStrip = 7 KeyEighthStrip = 14
 CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3347 Bend = 0
@@ -17039,11 +16753,7 @@ Comparatordigi BX 8 Layer 3 halfstrip 65
 Comparatordigi BX 8 Layer 5 halfstrip 4
 CSC CLCT #1: Valid = 1 BX = 4 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 2811 Bend = 0
  Slope = 1 CFEB = 1 Strip = 3 KeyHalfStrip = 35 KeyQuartStrip = 71 KeyEighthStrip = 143
-CSC CLCT #2: Valid = 1 BX = 4 Run-2 Pattern = 9 Run-3 Pattern = 4 Quality = 4 Comp Code 3300 Bend = 1
- Slope = 3 CFEB = 0 Strip = 23 KeyHalfStrip = 23 KeyQuartStrip = 46 KeyEighthStrip = 92
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 5 Comp Code 1181 Bend = 0
- Slope = 6 CFEB = 0 Strip = 14 KeyHalfStrip = 14 KeyQuartStrip = 28 KeyEighthStrip = 57
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 4 Quality = 4 Comp Code 3300 Bend = 1
+CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 4 Quality = 4 Comp Code 3300 Bend = 1
  Slope = 3 CFEB = 0 Strip = 23 KeyHalfStrip = 23 KeyQuartStrip = 46 KeyEighthStrip = 92
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 5 Comp Code 1181 Bend = 0
  Slope = 6 CFEB = 0 Strip = 14 KeyHalfStrip = 14 KeyQuartStrip = 28 KeyEighthStrip = 57
@@ -17100,12 +16810,10 @@ Comparatordigi BX 7 Layer 4 halfstrip 96
 Comparatordigi BX 7 Layer 5 halfstrip 56
 CSC CLCT #1: Valid = 1 BX = 4 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 4079 Bend = 1
  Slope = 0 CFEB = 1 Strip = 3 KeyHalfStrip = 35 KeyQuartStrip = 70 KeyEighthStrip = 140
-CSC CLCT #2: Valid = 1 BX = 4 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3270 Bend = 1
- Slope = 2 CFEB = 1 Strip = 18 KeyHalfStrip = 50 KeyQuartStrip = 101 KeyEighthStrip = 202
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3270 Bend = 1
  Slope = 2 CFEB = 1 Strip = 18 KeyHalfStrip = 50 KeyQuartStrip = 101 KeyEighthStrip = 202
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 3343 Bend = 1
- Slope = 12 CFEB = 0 Strip = 15 KeyHalfStrip = 15 KeyQuartStrip = 30 KeyEighthStrip = 60
+CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 1077 Bend = 1
+ Slope = 13 CFEB = 0 Strip = 15 KeyHalfStrip = 15 KeyQuartStrip = 31 KeyEighthStrip = 63
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 4 Comp Code 3343 Bend = 1
  Slope = 12 CFEB = 0 Strip = 15 KeyHalfStrip = 15 KeyQuartStrip = 30 KeyEighthStrip = 60
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 3 Run-3 Pattern = 1 Quality = 3 Bend = 1 Slope = 12
@@ -17162,20 +16870,16 @@ Comparatordigi BX 8 Layer 1 halfstrip 136
 Comparatordigi BX 8 Layer 2 halfstrip 136
 Comparatordigi BX 8 Layer 3 halfstrip 134
 Comparatordigi BX 8 Layer 4 halfstrip 123
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 3903 Bend = 0
- Slope = 0 CFEB = 3 Strip = 26 KeyHalfStrip = 122 KeyQuartStrip = 244 KeyEighthStrip = 489
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 5 Comp Code 2680 Bend = 0
- Slope = 6 CFEB = 4 Strip = 6 KeyHalfStrip = 134 KeyQuartStrip = 269 KeyEighthStrip = 539
+CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 9 Run-3 Pattern = 4 Quality = 4 Comp Code 3969 Bend = 1
+ Slope = 3 CFEB = 3 Strip = 19 KeyHalfStrip = 115 KeyQuartStrip = 230 KeyEighthStrip = 460
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 3903 Bend = 0
  Slope = 0 CFEB = 3 Strip = 26 KeyHalfStrip = 122 KeyQuartStrip = 244 KeyEighthStrip = 489
-CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 5 Comp Code 2680 Bend = 0
- Slope = 6 CFEB = 4 Strip = 6 KeyHalfStrip = 134 KeyQuartStrip = 269 KeyEighthStrip = 539
 CSC CLCT #1: Valid = 1 BX = 8 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 4 Comp Code 247 Bend = 0
  Slope = 12 CFEB = 4 Strip = 6 KeyHalfStrip = 134 KeyQuartStrip = 269 KeyEighthStrip = 539
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 0 Slope = 0
  KeyHalfStrip = 122 KeyQuartStrip = 244 KeyEighthStrip = 489 KeyWireGroup = 30 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 6 Run-3 Pattern = 2 Quality = 3 Bend = 0 Slope = 6
- KeyHalfStrip = 134 KeyQuartStrip = 269 KeyEighthStrip = 539 KeyWireGroup = 26 Type (SIM) = 1 MPC Link = 0
+CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 0 Slope = 0
+ KeyHalfStrip = 122 KeyQuartStrip = 244 KeyEighthStrip = 489 KeyWireGroup = 26 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 2, 4, 1, 12
 Comparatordigi BX 6 Layer 5 halfstrip 126
 Comparatordigi BX 7 Layer 0 halfstrip 123
@@ -17423,17 +17127,11 @@ Comparatordigi BX 7 Layer 2 halfstrip 142
 Comparatordigi BX 8 Layer 4 halfstrip 138
 CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 6 Comp Code 1466 Bend = 0
  Slope = 2 CFEB = 4 Strip = 26 KeyHalfStrip = 154 KeyQuartStrip = 308 KeyEighthStrip = 617
-CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3324 Bend = 1
- Slope = 0 CFEB = 4 Strip = 17 KeyHalfStrip = 145 KeyQuartStrip = 290 KeyEighthStrip = 581
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 4 Comp Code 279 Bend = 0
- Slope = 3 CFEB = 4 Strip = 9 KeyHalfStrip = 137 KeyQuartStrip = 275 KeyEighthStrip = 550
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3324 Bend = 1
+CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3324 Bend = 1
  Slope = 0 CFEB = 4 Strip = 17 KeyHalfStrip = 145 KeyQuartStrip = 290 KeyEighthStrip = 581
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 4 Comp Code 279 Bend = 0
  Slope = 3 CFEB = 4 Strip = 9 KeyHalfStrip = 137 KeyQuartStrip = 275 KeyEighthStrip = 550
-CSC LCT #1: Valid = 1 BX = 7 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 3 Bend = 0 Slope = 3
- KeyHalfStrip = 137 KeyQuartStrip = 275 KeyEighthStrip = 550 KeyWireGroup = 15 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 0
+CSC LCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 0
  KeyHalfStrip = 145 KeyQuartStrip = 290 KeyEighthStrip = 581 KeyWireGroup = 15 Type (SIM) = 1 MPC Link = 0
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 8 Run-3 Pattern = 4 Quality = 3 Bend = 0 Slope = 3
  KeyHalfStrip = 137 KeyQuartStrip = 275 KeyEighthStrip = 550 KeyWireGroup = 21 Type (SIM) = 1 MPC Link = 0
@@ -17466,8 +17164,6 @@ Comparatordigi BX 8 Layer 5 halfstrip 25
 Comparatordigi BX 9 Layer 2 halfstrip 44
 CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 5 Comp Code 1926 Bend = 1
  Slope = 6 CFEB = 0 Strip = 3 KeyHalfStrip = 3 KeyQuartStrip = 7 KeyEighthStrip = 14
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 5 Comp Code 2740 Bend = 0
- Slope = 13 CFEB = 0 Strip = 29 KeyHalfStrip = 29 KeyQuartStrip = 58 KeyEighthStrip = 117
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 5 Comp Code 2740 Bend = 0
  Slope = 13 CFEB = 0 Strip = 29 KeyHalfStrip = 29 KeyQuartStrip = 58 KeyEighthStrip = 117
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 2 Run-3 Pattern = 0 Quality = 3 Bend = 0 Slope = 13
@@ -17486,12 +17182,8 @@ Comparatordigi BX 8 Layer 4 halfstrip 154
 Comparatordigi BX 9 Layer 3 halfstrip 154
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 1023 Bend = 1
  Slope = 0 CFEB = 4 Strip = 25 KeyHalfStrip = 153 KeyQuartStrip = 306 KeyEighthStrip = 613
-CSC CLCT #2: Valid = 1 BX = 7 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 4 Comp Code 3275 Bend = 1
- Slope = 6 CFEB = 4 Strip = 17 KeyHalfStrip = 145 KeyQuartStrip = 291 KeyEighthStrip = 582
 CSC LCT #1: Valid = 1 BX = 8 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 3 Bend = 1 Slope = 0
  KeyHalfStrip = 153 KeyQuartStrip = 306 KeyEighthStrip = 613 KeyWireGroup = 14 Type (SIM) = 1 MPC Link = 0
-CSC LCT #2: Valid = 1 BX = 8 Run-2 Pattern = 7 Run-3 Pattern = 3 Quality = 3 Bend = 1 Slope = 6
- KeyHalfStrip = 145 KeyQuartStrip = 291 KeyEighthStrip = 582 KeyWireGroup = 14 Type (SIM) = 1 MPC Link = 0
 CSCChamber with Comparatordigi: (end,station,ring,chamber) = 2, 4, 1, 8
 Comparatordigi BX 7 Layer 0 halfstrip 4
 Comparatordigi BX 7 Layer 5 halfstrip 4
@@ -17731,9 +17423,7 @@ CSC CLCT #1: Valid = 1 BX = 5 Run-2 Pattern = 9 Run-3 Pattern = 3 Quality = 6 Co
  Slope = 3 CFEB = 1 Strip = 21 KeyHalfStrip = 53 KeyQuartStrip = 107 KeyEighthStrip = 215
 CSC CLCT #2: Valid = 1 BX = 5 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 5 Comp Code 1756 Bend = 0
  Slope = 2 CFEB = 1 Strip = 12 KeyHalfStrip = 44 KeyQuartStrip = 89 KeyEighthStrip = 178
-CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3308 Bend = 1
- Slope = 0 CFEB = 0 Strip = 25 KeyHalfStrip = 25 KeyQuartStrip = 50 KeyEighthStrip = 100
-CSC CLCT #2: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 2912 Bend = 1
+CSC CLCT #1: Valid = 1 BX = 6 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 2912 Bend = 1
  Slope = 1 CFEB = 1 Strip = 11 KeyHalfStrip = 43 KeyQuartStrip = 86 KeyEighthStrip = 172
 CSC CLCT #1: Valid = 1 BX = 7 Run-2 Pattern = 10 Run-3 Pattern = 4 Quality = 4 Comp Code 3308 Bend = 1
  Slope = 0 CFEB = 0 Strip = 25 KeyHalfStrip = 25 KeyQuartStrip = 50 KeyEighthStrip = 100
